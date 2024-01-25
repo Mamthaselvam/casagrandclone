@@ -9,6 +9,7 @@ const Home = () => {
     <Banner />
     <HomeSearchWidget />
     <Lifestyle/>
+      
     </>
   );
 };

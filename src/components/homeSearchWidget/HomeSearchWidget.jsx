@@ -1,3 +1,4 @@
+import "./searchWidget.scss";
 import { Button, Col, Form, Row, Container } from "react-bootstrap";
 
 const HomeSearchWidget = () => {
@@ -8,22 +9,46 @@ const HomeSearchWidget = () => {
           <Form>
             <Row className="mb-3">
               <Col xl={4}>
-                <Form.Group as={Col} controlId="formGridCity">
-                  <Form.Label>City</Form.Label>
-                  <Form.Control />
+                <Form.Group as={Col} controlId="formGridState">
+                  <Form.Select defaultValue="Location">
+                    <option>Location</option>
+                    <option>option 1</option>
+                    <option>option 3</option>
+                    <option>option 1</option>
+                  </Form.Select>
                 </Form.Group>
               </Col>
 
               <Col xl={4}>
                 <Form.Group as={Col} controlId="formGridZip">
-                  <Form.Label>Zip</Form.Label>
                   <Form.Control />
                 </Form.Group>
               </Col>
 
               <Col xl={4}>
                 <Form.Group as={Col} controlId="formGridState">
-                  <Form.Label>State</Form.Label>
+                  <Form.Select defaultValue="Choose...">
+                    <option>Choose...</option>
+                    <option>...</option>
+                  </Form.Select>
+                </Form.Group>
+              </Col>
+
+              <Col xl={4}>
+                <Form.Group as={Col} controlId="formGridCity">
+                  <Form.Control />
+                </Form.Group>
+              </Col>
+
+              <Col xl={4}>
+                <Form.Group as={Col} controlId="formGridZip">
+             
+                  <Form.Control />
+                </Form.Group>
+              </Col>
+
+              <Col xl={4}>
+                <Form.Group as={Col} controlId="formGridState">
                   <Form.Select defaultValue="Choose...">
                     <option>Choose...</option>
                     <option>...</option>
