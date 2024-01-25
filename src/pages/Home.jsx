@@ -1,12 +1,13 @@
-import Banner from "../components/banner/Banner"
+import Banner from "../components/banner/Banner";
+import HomeSearchWidget from "../components/homeSearchWidget/HomeSearchWidget";
 
 const Home = () => {
   return (
     <>
-    
-    <Banner />
+      <Banner />
+      <HomeSearchWidget />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
