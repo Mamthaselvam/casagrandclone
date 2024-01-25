@@ -15,9 +15,6 @@ const Banner = () => {
           <Carousel.Item>
             <img src={bannerTwo} alt="slider" />
           </Carousel.Item>
-          <Carousel.Item>
-            <img src={bannerOne} alt="slider" />
-          </Carousel.Item>
         </Carousel>
       </section>
     </>
