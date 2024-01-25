@@ -7,16 +7,14 @@
     object-fit: cover;
   }
 
-  .carousel-control-next-icon {
-    background-image: url("../../assets/nextt.png");
-  }
+  // .carousel-control-next-icon {
+  //   background-image: url("../../assets/nextt.png");
+  // }
 
-  .carousel-control-prev-icon {
-    background-image: url("../../assets/previous.png");
-  }
+  // .carousel-control-prev-icon {
+  //   background-image: url("../../assets/previous.png");
+  // }
   .carousel-indicators [data-bs-target] {
     display: none;
-    
   }
-
 }
