@@ -8,23 +8,25 @@ const HomeSearchWidget = () => {
         <Container>
           <Form>
             <Row className="mb-3">
-              <Col xl={4} className="my-2">
-                <Form.Group as={Col} controlId="formGridCity">
-                  <Form.Label>City</Form.Label>
-                  <Form.Control />
-                </Form.Group>
-              </Col>
-
-              <Col xl={4} className="my-2">
-                <Form.Group as={Col} controlId="formGridZip">
-                  <Form.Label>Zip</Form.Label>
-                  <Form.Control />
-                </Form.Group>
-              </Col>
-
-              <Col xl={4} className="my-2">
+              <Col xl={4}>
                 <Form.Group as={Col} controlId="formGridState">
-                  <Form.Label>State</Form.Label>
+                  <Form.Select defaultValue="Location">
+                    <option>Location</option>
+                    <option>option 1</option>
+                    <option>option 3</option>
+                    <option>option 1</option>
+                  </Form.Select>
+                </Form.Group>
+              </Col>
+
+              <Col xl={4}>
+                <Form.Group as={Col} controlId="formGridZip">
+                  <Form.Control />
+                </Form.Group>
+              </Col>
+
+              <Col xl={4}>
+                <Form.Group as={Col} controlId="formGridState">
                   <Form.Select defaultValue="Choose...">
                     <option>Choose...</option>
                     <option>...</option>
@@ -32,23 +34,21 @@ const HomeSearchWidget = () => {
                 </Form.Group>
               </Col>
 
-              <Col xl={4} className="my-2">
+              <Col xl={4}>
                 <Form.Group as={Col} controlId="formGridCity">
-                  <Form.Label>City</Form.Label>
                   <Form.Control />
                 </Form.Group>
               </Col>
 
-              <Col xl={4} className="my-2">
+              <Col xl={4}>
                 <Form.Group as={Col} controlId="formGridZip">
-                  <Form.Label>Zip</Form.Label>
+             
                   <Form.Control />
                 </Form.Group>
               </Col>
 
-              <Col xl={4} className="my-2">
+              <Col xl={4}>
                 <Form.Group as={Col} controlId="formGridState">
-                  <Form.Label>State</Form.Label>
                   <Form.Select defaultValue="Choose...">
                     <option>Choose...</option>
                     <option>...</option>
