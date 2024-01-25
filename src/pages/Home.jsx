@@ -1,7 +1,5 @@
-import Section from "../components/section/Section"
+import Lifestyle from "../components/lifestyle/Lifestyle"
 import Banner from "../components/banner/Banner"
-import Login from "../components/login/Login"
-import Banner from "../components/banner/Banner";
 import HomeSearchWidget from "../components/homeSearchWidget/HomeSearchWidget";
 
 const Home = () => {
@@ -9,10 +7,8 @@ const Home = () => {
     <>
     
     <Banner />
-    <Login/>
-    <Section/>
-      <Banner />
-      <HomeSearchWidget />
+    <HomeSearchWidget />
+    <Lifestyle/>
     </>
   );
 };

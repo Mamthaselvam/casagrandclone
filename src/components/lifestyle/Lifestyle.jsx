@@ -1,7 +1,7 @@
 import React from 'react'
-import './section.scss'
+import './lifestyle.scss'
 import section from '../../assets/section.svg'
-const Section = () => {
+const Lifestyle = () => {
   return (
     <div>
         <img src={section} />
@@ -9,4 +9,4 @@ const Section = () => {
   )
 }
 
-export default Section 
+export default Lifestyle 
