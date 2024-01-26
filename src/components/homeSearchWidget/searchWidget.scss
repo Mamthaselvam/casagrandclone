@@ -2,3 +2,29 @@
   overflow: hidden;
   padding: 5rem 0;
 }
+
+
+.open-sans-500 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #212529;
+  
+}
+.custom-button {
+  color: #ffac44;
+  font-size: 18px;
+  background-color: white;
+  border-color: white;
+  text-decoration: none;
+}
+
+.custom-button:hover {
+  text-decoration: underline;
+  background-color: white;
+  color: #ffac44;
+  border-color: white;
+}
