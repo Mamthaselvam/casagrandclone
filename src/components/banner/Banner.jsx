@@ -1,19 +1,23 @@
 import "./banner.scss";
 
-import Carousel from "react-bootstrap/Carousel";
+import { Carousel, Image } from "react-bootstrap";
 import bannerOne from "../../assets/bannerOne.jpg";
 import bannerTwo from "../../assets/bannerTwo.jpg";
+import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 
 const Banner = () => {
   return (
     <>
       <section id="banner">
-        <Carousel>
+        <Carousel
+          nextIcon={<FaChevronRight className="text-black" />}
+          prevIcon={<FaChevronLeft className="text-black" />}
+        >
           <Carousel.Item>
-            <img src={bannerOne} alt="slider" />
+            <Image src={bannerOne} alt="slider" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src={bannerTwo} alt="slider" />
+            <Image src={bannerTwo} alt="slider" />
           </Carousel.Item>
         </Carousel>
       </section>
