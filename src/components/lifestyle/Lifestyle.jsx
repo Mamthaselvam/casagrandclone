@@ -17,8 +17,8 @@ const Lifestyle = () => {
           {/* Slide 1 */}
           <div>
             <img src={lifestyle1} alt="Lifestyle Slide 1" />
-            <div className="ms-5 mt-5 bg-danger sliderContent">
-              <div>
+            <div className="ms-5 mt-5 bg-white sliderContent">
+              <div className="slide">
                 <p className="fs-2">LIFESTYLE AT CASAGRAND</p>
                 <p className="fs-7">
                   Over 40,000 happy families have found their dream home at
@@ -34,8 +34,8 @@ const Lifestyle = () => {
           {/* Slide 1 */}
           <div>
             <img src={life2} alt="Lifestyle Slide 1" />
-            <div className="ms-5 mt-5 bg-danger sliderContent">
-              <div>
+            <div className="ms-5 mt-5 bg-white sliderContent">
+              <div className="slide">
                 <p className="fs-2">LIFESTYLE AT CASAGRAND</p>
                 <p className="fs-7">
                   Over 40,000 happy families have found their dream home at
@@ -51,8 +51,8 @@ const Lifestyle = () => {
           {/* Slide 1 */}
           <div>
             <img src={life3} alt="Lifestyle Slide 1" />
-            <div className="ms-5 mt-5 bg-danger sliderContent">
-              <div>
+            <div className="ms-5  bg-white sliderContent">
+              <div className="slide">
                 <p className="fs-2">LIFESTYLE AT CASAGRAND</p>
                 <p className="fs-7">
                   Over 40,000 happy families have found their dream home at

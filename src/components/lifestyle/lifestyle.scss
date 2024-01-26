@@ -1,22 +1,29 @@
 #lifeStyle {
   overflow: hidden;
   position: relative;
-  background-color: yellow;
+  
 
   .carousel-icon {
     position: absolute;
-    bottom: 15%;
+    bottom: 9%;
     cursor: pointer;
+    padding: 20px 22px;
+    color: black;
+    
   }
 
   .left-icon {
     left: 58%;
-    background-color: aqua;
+    border-radius: 20px;
+    box-shadow:2px 2px grey;
+    
   }
 
   .right-icon {
-   left: -493%;
-    background-color: plum;
+   left: -493%; 
+   margin-left: 1rem;
+   border-radius: 20px;
+   box-shadow: 2px 2px grey;
   }
 
   .carousel-indicators {
@@ -24,8 +31,19 @@
   }
 
   .sliderContent {
+   
     position: absolute;
     left: 0;
-    bottom: 13%;
+    bottom: 0;
+    
+  }
+  img{
+   height: 650px;
+   width: 100%;
+  }
+  .slide{
+   padding-bottom: 3rem;
+   margin-left: 2rem;
+  
   }
 }
