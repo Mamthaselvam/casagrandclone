@@ -1,6 +1,7 @@
 import Lifestyle from "../components/lifestyle/Lifestyle"
 import Banner from "../components/banner/Banner"
 import HomeSearchWidget from "../components/homeSearchWidget/HomeSearchWidget";
+import ProjectCards from "../components/projectcards/ProjectCards";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
     <Banner />
     <HomeSearchWidget />
     <Lifestyle/>
-      
+    <ProjectCards/>
     </>
   );
 };
