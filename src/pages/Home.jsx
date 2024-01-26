@@ -1,14 +1,16 @@
-import Section from "../components/section/Section";
-import Banner from "../components/banner/Banner";
+import Lifestyle from "../components/lifestyle/Lifestyle"
+import Banner from "../components/banner/Banner"
 import HomeSearchWidget from "../components/homeSearchWidget/HomeSearchWidget";
+import ProjectCards from "../components/projectcards/ProjectCards";
 
 const Home = () => {
   return (
     <>
-      <Banner />
-      <HomeSearchWidget />
-      <Section />
-      <Banner />
+    
+    <Banner />
+    <HomeSearchWidget />
+    <Lifestyle/>
+    <ProjectCards/>
     </>
   );
 };
