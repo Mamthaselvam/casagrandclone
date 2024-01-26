@@ -1,31 +1,31 @@
-.buttons {
-  padding-bottom: 1rem;
-}
-button span {
-  color: goldenrod;
-  font-size: bold;
-}
-
-.click {
-  padding-left: 2rem;
-}
-
-.custom-carousel {
+#lifeStyle {
+  overflow: hidden;
   position: relative;
-}
+  background-color: yellow;
 
-.carousel-icon {
-  position: absolute;
-  bottom: 0;
-  cursor: pointer;
-}
+  .carousel-icon {
+    position: absolute;
+    bottom: 15%;
+    cursor: pointer;
+  }
 
-.left-icon {
-  left: 0;
-  background-color: aqua;
-}
+  .left-icon {
+    left: 58%;
+    background-color: aqua;
+  }
 
-.right-icon {
-  left: -529%;
-  background-color: red;
+  .right-icon {
+   left: -493%;
+    background-color: plum;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .sliderContent {
+    position: absolute;
+    left: 0;
+    bottom: 13%;
+  }
 }
