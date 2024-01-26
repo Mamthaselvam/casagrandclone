@@ -1,28 +1,32 @@
+#lifeStyle {
+  overflow: hidden;
+  position: relative;
 
-.buttons{
-   padding-bottom: 1rem;
-}
-button span{
-   color: goldenrod;
-   font-size: bold;
-}
+  .buttons {
+    padding-bottom: 1rem;
+  }
+  button span {
+    color: goldenrod;
+    font-size: bold;
+  }
 
-.click{
-   padding-left: 2rem;
-}
-.left{
-   margin-left: 2rem;
-   border-radius: 20px;
-   padding: 5px  10px;
-   box-shadow: 0 2px 2px 2px rgb(88, 88, 88);
-   border: none;
-   background-color: white;
-}
-.leftarrow{
-   margin-left: .8rem;
-   border-radius: 20px;
-   padding: 5px  10px;
-   box-shadow: 0 2px 2px 2px rgb(88, 88, 88);
-   border: none;
-   background-color: white;
+  .click {
+    padding: 5rem;
+  }
+
+  //   prev icon
+  .carousel-control-prev-icon {
+    background-image: url("https://media.istockphoto.com/id/1093587922/vector/arrow-line-vector-icon-on-white-background.jpg?s=612x612&w=0&k=20&c=oMajz7P9e9tqTxW4aFjTAejxuydaQ9nHdPo6Ht5B69E=");
+    position: absolute;
+    bottom: 0;
+    left: 67%;
+    z-index: 9999 !important;
+  }
+  .carousel-control-next-icon {
+    background-image: url("https://static3.depositphotos.com/1003603/162/i/450/depositphotos_1627610-stock-photo-red-grunge-arrow.jpg");
+    position: absolute;
+    bottom: 0;
+    z-index: 999999 !important;
+    left: -466%;
+  }
 }
