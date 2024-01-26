@@ -1,82 +1,90 @@
-.venue{
+#projectCard {
+  overflow: hidden;
+  padding: 5rem 0;
+  .venue {
     margin-left: 2rem;
     color: rgb(196, 175, 143);
-}
-.room{
+  }
+  .room {
     margin-left: 2rem;
     color: rgb(196, 175, 143);
-}
-.amount{
+  }
+  .amount {
     margin-left: 2rem;
     color: rgb(196, 175, 143);
-}
-.tittle{
+  }
+  .tittle {
     margin-left: 2rem;
     margin-top: 1rem;
-}
-.location{
-    margin-left: .5rem;
-}
-.space{
-    margin-left: .5rem;
-}
-.rupees{
-    margin-left: .5rem;
-}
-.loc{
+  }
+  .location {
+    margin-left: 0.5rem;
+  }
+  .space {
+    margin-left: 0.5rem;
+  }
+  .rupees {
+    margin-left: 0.5rem;
+  }
+  .loc {
     margin-top: 1rem;
-}
-.card{
-    width: 90%;
+  }
+  .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
-}
+    height: 550px;
+  }
 
-.boxes{
+  .boxes {
     margin: 0 auto;
-}
-.custom-tab .nav-tabs{
+  }
+  .custom-tab .nav-tabs {
     border: none;
     background-color: rgb(183, 184, 186);
     border-radius: 0;
-}
-.custom-tab :hover{
+  }
+  .custom-tab :hover {
     border: none;
-    
-}
-.end{
+  }
+  .end {
     margin-bottom: 1rem;
-}
-.view{
+  }
+  .view {
     color: rgb(255, 156, 0);
     border: none;
     background-color: white;
     cursor: pointer;
     margin-left: 2rem;
-}
-.down{
+  }
+  .down {
     color: rgb(86, 86, 86);
     border: none;
     background-color: white;
     cursor: pointer;
     margin-left: 10rem;
-}
-.change{
+  }
+  .change {
     background-color: rgb(214, 214, 214);
-}
-.sharp{
+  }
+  .sharp {
     color: rgb(255, 156, 0);
-}
-.share{
+  }
+  .share {
     border-radius: 20px;
-    padding: 4px 8px  ;
+    padding: 4px 8px;
     border: none;
     background-color: white;
     position: absolute;
-    top: .5rem;
-    right: .5rem;
-
-}
-.nav-tabs {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  .nav-tabs {
     border-bottom: 0;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    background: #000;
+    color: #fff;
+  }
 }
