@@ -2,13 +2,15 @@ import { Button, Col, Form, Row, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Slider, Select } from "antd";
 import "./searchWidget.scss";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const HomeSearchWidget = () => {
   return (
     <>
       <section id="homeSearchWidget">
         <h1 className="widgetTitle text-center mb-4">
-          A PLACE THAT YOU CALL HOME{" "}
+          A PLACE THAT YOU CALL HOME
         </h1>
 
         <Container>
@@ -72,36 +74,50 @@ const HomeSearchWidget = () => {
                 />
               </Col>
               <Col xl={4} className="my-2">
-                <div>41 projects found</div>
-                <div className="text-warning">Search</div>
+                <div className="d-flex justify-content-between align-items-center mt-4">
+                  <div className="totalCount">41 projects found</div>
+                  <div
+                    className="text-warning fw-semibold"
+                    style={{ cursor: "pointer" }}
+                  >
+                    Search
+                    <span className="mx-2">
+                      <FaArrowRightLong />
+                    </span>
+                  </div>
+                </div>
               </Col>
             </Row>
-
-            <Button variant="primary" type="submit">
-              Submit
-            </Button>
           </Form>
         </Container>
         <div className="text-center">
-          <p>
-            Most Searched Areas :{" "}
-            <span style={{ color: "grey", fontSize: "14px" }}>
-              Omr | Tambaram | Moggapair | Pallikaranai{" "}
+          <p style={{ fontSize: "14px" }}>
+            Most Searched Areas :
+            <span className="mx-2" style={{ color: "grey" }}>
+              <Link to="/"> Omr</Link> | <Link to="/">Tambaram</Link> |
+              <Link to="/">Moggapair</Link> | <Link to="/">Pallikaranai</Link>
             </span>
           </p>
-          <p>
-            Closer to IT corridors in Sholinganallur :{" "}
-            <span style={{ color: "grey", fontSize: "14px" }}>
-              First City | Cloud9 | Flagship{" "}
+          <p style={{ fontSize: "14px" }}>
+            Closer to IT corridors in Sholinganallur :
+            <span className="mx-2" style={{ color: "grey" }}>
+              <Link to="/">First City</Link> | <Link to="/">Cloud9</Link> |
+              <Link to="/">Flagship</Link>
             </span>
           </p>
-          <p>
-            Ready to move in :{" "}
-            <span style={{ color: "grey", fontSize: "14px" }}>
-              Cresendo | Supremus | Smart Town | Esquire{" "}
+          <p style={{ fontSize: "14px" }}>
+            Ready to move in :
+            <span className="mx-2" style={{ color: "grey" }}>
+              <Link to="/">Cresendo</Link> | <Link to="/">Supremus</Link> |
+              <Link to="/"> Smart Town</Link> | <Link to="/">Esquire</Link>
             </span>
           </p>
-          <Button className="custom-button">Enquire Now</Button>
+          <Button className="custom-button">
+            Enquire Now
+            <span className="mx-2">
+              <FaArrowRightLong />
+            </span>
+          </Button>
         </div>
       </section>
     </>
