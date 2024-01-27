@@ -1,49 +1,49 @@
 #lifeStyle {
   overflow: hidden;
+  height: 80vh;
   position: relative;
-  
-
-  .carousel-icon {
-    position: absolute;
-    bottom: 9%;
-    cursor: pointer;
-    padding: 20px 22px;
-    color: black;
-    
-  }
-
-  .left-icon {
-    left: 58%;
-    border-radius: 20px;
-    box-shadow:2px 2px grey;
-    
-  }
-
-  .right-icon {
-   left: -493%; 
-   margin-left: 1rem;
-   border-radius: 20px;
-   box-shadow: 2px 2px grey;
-  }
-
-  .carousel-indicators {
-    display: none;
+  img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
   }
 
   .sliderContent {
-   
+    background: #fff;
     position: absolute;
-    left: 0;
-    bottom: 0;
-    
+    left: 6%;
+    bottom: 4%;
+    z-index: 999;
+    padding: 2rem 1rem;
   }
-  img{
-   height: 650px;
-   width: 100%;
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    background: #000;
+    width: 3rem;
+    height: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
   }
-  .slide{
-   padding-bottom: 3rem;
-   margin-left: 2rem;
-  
+
+  .carousel-control-next {
+    left: 23%;
+    top: 92%;
+    z-index: 999;
+  }
+
+  .carousel-control-prev {
+    left: 17%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    display: none;
   }
 }

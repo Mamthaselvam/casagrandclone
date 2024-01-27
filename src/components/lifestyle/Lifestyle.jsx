@@ -1,71 +1,43 @@
-import "./lifestyle.scss";
-import { Carousel } from "react-bootstrap";
-import { HiArrowLongRight, HiArrowLongLeft } from "react-icons/hi2";
-import lifestyle1 from "../../assets/lifestyle1.webp";
-import life2 from "../../assets/life2.jpg";
-import life3 from "../../assets/life3.jpg";
+import "./lifeStyle.scss";
+import { Carousel, Image } from "react-bootstrap";
+import bannerOne from "../../assets/bannerOne.jpg";
+import bannerTwo from "../../assets/bannerTwo.jpg";
+import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 
-const Lifestyle = () => {
+const Banner = () => {
   return (
-    <section id="lifeStyle">
-      <Carousel
-        nextIcon={<HiArrowLongRight className="carousel-icon right-icon" />}
-        prevIcon={<HiArrowLongLeft className="carousel-icon left-icon" />}
-        className="custom-carousel"
-      >
-        <Carousel.Item>
-          {/* Slide 1 */}
-          <div>
-            <img src={lifestyle1} alt="Lifestyle Slide 1" />
-            <div className="ms-5 mt-5 bg-white sliderContent">
-              <div className="slide">
-                <p className="fs-2">LIFESTYLE AT CASAGRAND</p>
-                <p className="fs-7">
-                  Over 40,000 happy families have found their dream home at
-                  Casagrand properties.
-                </p>
-              </div>
-            </div>
-          </div>
-        </Carousel.Item>
-        {/* Add other Carousel Items as needed */}
+    <>
+      <section id="lifeStyle">
+        <Carousel
+          nextIcon={<FaChevronRight className="text-black" />}
+          prevIcon={<FaChevronLeft className="text-black" />}
+        >
+          <Carousel.Item>
+            <Image src={bannerOne} alt="slider" />
 
-        <Carousel.Item>
-          {/* Slide 1 */}
-          <div>
-            <img src={life2} alt="Lifestyle Slide 1" />
-            <div className="ms-5 mt-5 bg-white sliderContent">
-              <div className="slide">
-                <p className="fs-2">LIFESTYLE AT CASAGRAND</p>
-                <p className="fs-7">
-                  Over 40,000 happy families have found their dream home at
-                  Casagrand properties.
-                </p>
-              </div>
+            <div className=" sliderContent shadow-lg">
+              <h3 className="fw-bold">LIFESTYLE AT CASAGRAND</h3>
+              <p>
+                Over 40,000 happy families have found their dream home at
+                Casagrand properties.
+              </p>
             </div>
-          </div>
-        </Carousel.Item>
-        {/* Add other Carousel Items as needed */}
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image src={bannerTwo} alt="slider" />
 
-        <Carousel.Item>
-          {/* Slide 1 */}
-          <div>
-            <img src={life3} alt="Lifestyle Slide 1" />
-            <div className="ms-5  bg-white sliderContent">
-              <div className="slide">
-                <p className="fs-2">LIFESTYLE AT CASAGRAND</p>
-                <p className="fs-7">
-                  Over 40,000 happy families have found their dream home at
-                  Casagrand properties.
-                </p>
-              </div>
+            <div className=" sliderContent">
+              <h3>LIFESTYLE AT CASAGRAND</h3>
+              <p>
+                Over 40,000 happy families have found their dream home at
+                Casagrand properties.
+              </p>
             </div>
-          </div>
-        </Carousel.Item>
-        {/* Add other Carousel Items as needed */}
-      </Carousel>
-    </section>
+          </Carousel.Item>
+        </Carousel>
+      </section>
+    </>
   );
 };
 
-export default Lifestyle;
+export default Banner;
