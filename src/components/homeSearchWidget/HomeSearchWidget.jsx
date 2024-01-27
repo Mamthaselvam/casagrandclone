@@ -9,9 +9,7 @@ const HomeSearchWidget = () => {
   return (
     <>
       <section id="homeSearchWidget">
-        <h1 className="widgetTitle text-center mb-4">
-          A PLACE THAT YOU CALL HOME
-        </h1>
+        <h1 className="widgetTitle text-center mb-4">Project Search</h1>
 
         <Container>
           <Form>
