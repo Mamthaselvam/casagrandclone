@@ -1,67 +1,66 @@
-export const maincontent=[
-  
-    {
-      id: 1,
-      imgsrc:
-        "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
-      title: "Casagrand Palm Springs",
-      place: "Medavakkam, Chennai",
-      bhk: "2&3 BHK Apartments",
-      price: "Rs.55Lakhs Onwards*",
-    },
-  
-    {
-      id: 2,
-      imgsrc:
-        "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
-      title: "Casagrand Elysium",
-      place: "Manapakkam",
-      bhk: "2&3 BHK Apartments",
-      price: "Rs.48Lakhs Onwards*",
-    },
-  
-    {
-      id: 3,
-      imgsrc:
-        "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
-      title: "Casagrand Flagship",
-      place: "Pallikaranai",
-      bhk: "2&3 BHK Apartments",
-      price: "Apt-Rs.57 L Onwards*",
-    },
-  
-    {
-      id: 4,
-      imgsrc:
-        "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
-      title: "Casagrand Dior",
-      place: "Kipauk,Chennai",
-      bhk: "3&4 BHK Apartments",
-      price: "Rs.2.71Cr Onwards*",
-    },
-  
-    {
-      id: 5,
-      imgsrc:
-        "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
-      title: "Casagrand Cloud9",
-      place: "Shollinganallur,OMR",
-      bhk: "2,3&4 BHK Apts|4 BHK Floor Villa",
-      price: "2,3&4 BHK Apts-93 Lakhs Onwards |4BHK Floor Villa-Rs.2.41Cr Onwards*",
-    },
+export const maincontent = [
+  {
+    id: 1,
+    imgsrc:
+      "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
+    title: "Casagrand Palm Springs",
+    place: "Medavakkam, Chennai",
+    bhk: "2&3 BHK Apartments",
+    price: "Rs.55Lakhs Onwards*",
+  },
 
-    {
-      id: 6,
-      imgsrc:
-        "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
-      title: "Casagrand Primrose",
-      place: "Perungalathur",
-      bhk: "2&3 BHK Rs.39L Onwards",
-      price: "4BHK Floor Villa Rs.1.49Cr onwards*",
-    },
-]
+  {
+    id: 2,
+    imgsrc:
+      "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
+    title: "Casagrand Elysium",
+    place: "Manapakkam",
+    bhk: "2&3 BHK Apartments",
+    price: "Rs.48Lakhs Onwards*",
+  },
 
-export const bengaluru=[
+  {
+    id: 3,
+    imgsrc:
+      "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
+    title: "Casagrand Flagship",
+    place: "Pallikaranai",
+    bhk: "2&3 BHK Apartments",
+    price: "Apt-Rs.57 L Onwards*",
+  },
+
+  {
+    id: 4,
+    imgsrc:
+      "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
+    title: "Casagrand Dior",
+    place: "Kipauk,Chennai",
+    bhk: "3&4 BHK Apartments",
+    price: "Rs.2.71Cr Onwards*",
+  },
+
+  {
+    id: 5,
+    imgsrc:
+      "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
+    title: "Casagrand Cloud9",
+    place: "Shollinganallur,OMR",
+    bhk: "2,3&4 BHK Apts|4 BHK Floor Villa",
+    price: "2,3&4 BHK Apts-93 Lakhs Onwards |4BHK",
+  },
+
+  {
+    id: 6,
+    imgsrc:
+      "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
+    title: "Casagrand Primrose",
+    place: "Perungalathur",
+    bhk: "2&3 BHK Rs.39L Onwards",
+    price: "4BHK Floor Villa Rs.1.49Cr onwards*",
+  },
+];
+
+export const bengaluru = [
   {
     id: 1,
     imgsrc:
@@ -91,8 +90,8 @@ export const bengaluru=[
     bhk: "2&3 BHK Apartments",
     price: "Apt-Rs.57 L Onwards*",
   },
-]
-export const coimbatore=[
+];
+export const coimbatore = [
   {
     id: 1,
     imgsrc:
@@ -102,8 +101,8 @@ export const coimbatore=[
     bhk: "2&3 BHK Apartments",
     price: "Apt-Rs.57 L Onwards*",
   },
-]
-export const hyderabad =[
+];
+export const hyderabad = [
   {
     id: 1,
     imgsrc:
@@ -113,4 +112,4 @@ export const hyderabad =[
     bhk: "2&3 BHK Apartments",
     price: "Apt-Rs.57 L Onwards*",
   },
-]
+];
