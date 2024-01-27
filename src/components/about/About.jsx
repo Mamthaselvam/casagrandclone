@@ -1,4 +1,6 @@
 import "./about.scss";
+import { useEffect } from "react";
+
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { FaHome, FaBuilding, FaRegSmile } from "react-icons/fa";
 import { MdGroup } from "react-icons/md";
@@ -6,8 +8,15 @@ import { PiBracketsSquareLight } from "react-icons/pi";
 import { SlBadge } from "react-icons/sl";
 import aboutImg from "../../assets/aboutImg.jpg";
 import { FaPlay } from "react-icons/fa6";
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 const About = () => {
+  useEffect(() => {
+    // Initialize FancyBox
+    Fancybox.bind("[data-fancybox]", {});
+  }, []);
+
   return (
     <>
       <section id="about">
