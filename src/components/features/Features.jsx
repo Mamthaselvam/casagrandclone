@@ -19,36 +19,37 @@ const Features = () => {
           <Row>
             <Col xl={3}>
               <img src={icon1} className="icon" />
-              <div className="mt-3">lorem lorem lorem lorem</div>
+              <div className="mt-3">Customized to suit your tastes</div>
             </Col>
             <Col xl={3}>
               <img src={icon2} className="icon" />
-              <div className="mt-3">lorem lorem lorem lorem</div>
+              <div className="mt-3">On Time Delivery</div>
             </Col>
             <Col xl={3}>
               <img src={icon3} className="icon" />
-              <div className="mt-3">lorem lorem lorem lorem</div>
+              <div className="mt-3">24x7 live telecast of ongoing construction</div>
             </Col>
             <Col xl={3}>
               <img src={icon4} className="icon" />
-              <div className="mt-3">lorem lorem lorem lorem</div>
+              <div className="mt-3">Branded fixtures and fitments</div>
             </Col>
           </Row>
 
           <Row className="mt-5">
             <Col xl={4}>
-              <img src={icon4} className="icon" />
-              <div className="mt-3">lorem lorem lorem lorem</div>
+              <img src={icon5} className="icon" />
+              <div className="mt-3">Less Maintenance Expenses</div>
             </Col>
 
             <Col xl={4}>
-              <img src={icon4} className="icon" />
-              <div className="mt-3">lorem lorem lorem lorem</div>
+              <img src={icon6} className="icon" />
+              <div className="mt-3 font-weight: 500; ">Life-time service</div>
             </Col>
 
             <Col xl={4}>
-              <img src={icon4} className="icon" />
-              <div className="mt-3">lorem lorem lorem lorem</div>
+              <img src={icon7} className="icon" />
+              <div className="mt-3" >Limited homes per floor to 
+              <p>ensure "Social distancing"</p></div>
             </Col>
           </Row>
         </Container>

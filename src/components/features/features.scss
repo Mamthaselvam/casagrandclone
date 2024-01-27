@@ -9,3 +9,13 @@
     object-fit: cover;
   }
 }
+.icon {
+    transition: transform 0.5s ease-in-out; /* Adding a smooth transition effect */
+  }
+  
+  .icon:hover {
+    transform: translateY(-15px); /* Moving the image 5 pixels higher on hover */
+  }
+  .mt-3 {
+    font-weight: 500;
+  }
