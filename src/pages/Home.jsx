@@ -3,6 +3,7 @@ import Banner from "../components/banner/Banner"
 import HomeSearchWidget from "../components/homeSearchWidget/HomeSearchWidget";
 import ProjectCards from "../components/projectcards/ProjectCards";
 import About from "../components/about/About";
+import Features from "../components/features/Features";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Banner />
     <HomeSearchWidget />
     <Lifestyle/>
+    <Features />
     <ProjectCards/>
     <About />
     </>

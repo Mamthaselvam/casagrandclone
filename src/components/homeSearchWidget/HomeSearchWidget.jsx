@@ -52,7 +52,7 @@ const HomeSearchWidget = () => {
                 </Select>
               </Col>
 
-              <Col xl={4} className="my-2">
+              {/* <Col xl={4} className="my-2">
                 <Form.Select>
                   <option>Type</option>
                   <option value="1">1BHK</option>
@@ -60,9 +60,9 @@ const HomeSearchWidget = () => {
                   <option value="3">3BHK</option>
                   <option value="4">4BHK</option>
                 </Form.Select>
-              </Col>
+              </Col> */}
 
-              <Col xl={4} className="my-2">
+              {/* <Col xl={4} className="my-2">
                 <span>25Lac - 8Cr</span>
                 <Slider
                   range={{
@@ -70,8 +70,8 @@ const HomeSearchWidget = () => {
                   }}
                   defaultValue={[20, 50]}
                 />
-              </Col>
-              <Col xl={4} className="my-2">
+              </Col> */}
+              {/* <Col xl={4} className="my-2">
                 <div className="d-flex justify-content-between align-items-center mt-4">
                   <div className="totalCount">41 projects found</div>
                   <div
@@ -84,12 +84,12 @@ const HomeSearchWidget = () => {
                     </span>
                   </div>
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Form>
         </Container>
         <div className="text-center">
-          <p style={{ fontSize: "14px" }}>
+          {/* <p style={{ fontSize: "14px" }}>
             Most Searched Areas :
             <span className="mx-2" style={{ color: "grey" }}>
               <Link to="/"> Omr</Link> | <Link to="/">Tambaram</Link> |
@@ -109,7 +109,7 @@ const HomeSearchWidget = () => {
               <Link to="/">Cresendo</Link> | <Link to="/">Supremus</Link> |
               <Link to="/"> Smart Town</Link> | <Link to="/">Esquire</Link>
             </span>
-          </p>
+          </p> */}
           <Button className="custom-button">
             Enquire Now
             <span className="mx-2">
