@@ -24,17 +24,17 @@ const ProjectCards = () => {
             <Tabs
               defaultActiveKey="profile"
               id="fill-tab-example"
-              className="mb-3 justify-content-center custom-tab"
+              className="mb-4 justify-content-center custom-tab"
             >
               <Tab eventKey="home" title="CHENNAI">
-                <p className="text-center mt-3">Apartments | Villa | Plots</p>
+                <p className="text-center">Apartments | Villa | Plots</p>
 
                 <Row className="center-row ">
                   {maincontent.map((item) => {
                     return (
                       <Col xl={4} key={item.id} className="column">
                         <div className="boxes shadow">
-                          <Card className=" card mb-5  ">
+                          <Card className=" card mb-5">
                             <Card.Img className="photo" src={item.imgsrc} />
                             <Card.Title className="tittle">
                               {item.title}
@@ -84,7 +84,7 @@ const ProjectCards = () => {
                 </Row>
               </Tab>
               <Tab eventKey="profile" title="COIMBATORE">
-                <p className="text-center mt-3">Apartments | Villa </p>
+                <p className="text-center">Apartments | Villa </p>
                 <Row className="row ">
                   {coimbatore.map((item) => {
                     return (
@@ -141,7 +141,7 @@ const ProjectCards = () => {
                 </Row>
               </Tab>
               <Tab eventKey="longer-tab" title="BENGALURU">
-                <p className="text-center mt-3">Apartments</p>
+                <p className="text-center">Apartments</p>
                 <Row className="row ">
                   {bengaluru.map((item) => {
                     return (
@@ -197,7 +197,7 @@ const ProjectCards = () => {
                 </Row>
               </Tab>
               <Tab eventKey="contact" title="HYDERABAD">
-                <p className="text-center mt-3">Villa</p>
+                <p className="text-center">Villa</p>
                 <Row className="row ">
                   {hyderabad.map((item) => {
                     return (

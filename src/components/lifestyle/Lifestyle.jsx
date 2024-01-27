@@ -9,8 +9,8 @@ const Banner = () => {
     <>
       <section id="lifeStyle">
         <Carousel
-          nextIcon={<FaArrowRightLong className="text-black" />}
-          prevIcon={<FaArrowLeftLong className="text-black" />}
+          nextIcon={<FaArrowRightLong className="text-warning" />}
+          prevIcon={<FaArrowLeftLong className="text-warning" />}
         >
           <Carousel.Item>
             <Image src={bannerOne} alt="slider" />
