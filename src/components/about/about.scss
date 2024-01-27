@@ -2,22 +2,67 @@
     font-weight: 600;
     text-align: center;
 }
-.text1.h1{
-font-size: 30px;
+.casagrand-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.casagrand-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 31px;
 
 }
-.caption.p{
-    font-size: 22px;
-    
-    }
- .icon{
-    font-size: 1rem !important;
- } 
- h2 {
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 31px;
-    color: #232323;
-  }
+
+.casagrand-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+
+}
+
+.casagrand-icon {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+.casagrand-paragraph {
+   font-size: 16px;
+   font-weight: 400;
+   text-align: left;
+   line-height: 24px;
+}
+
+
+.casagrand-icon {
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+ }
+
+ .casagrand-text {
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 18px;
+
+ }
+ 
+.casagrand-container {
+   display: flex;
+   align-items: center;  }
+ 
+
+ .casagrand-container .casagrand-icon1 {
+   margin-right: 5px; 
+ }
+ 
