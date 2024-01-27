@@ -1,9 +1,9 @@
 #lifeStyle {
   overflow: hidden;
-  height: 80vh;
+  height: 65vh;
   position: relative;
   img {
-    height: 80vh;
+    height: 65vh;
     width: 100%;
     object-fit: cover;
   }
@@ -19,7 +19,6 @@
 
   .carousel-control-next,
   .carousel-control-prev {
-    background: #000;
     width: 3rem;
     height: 3rem;
     top: 50%;

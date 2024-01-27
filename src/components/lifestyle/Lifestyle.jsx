@@ -2,15 +2,15 @@ import "./lifeStyle.scss";
 import { Carousel, Image } from "react-bootstrap";
 import bannerOne from "../../assets/bannerOne.jpg";
 import bannerTwo from "../../assets/bannerTwo.jpg";
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
+import { FaArrowRightLong, FaArrowLeftLong } from "react-icons/fa6";
 
 const Banner = () => {
   return (
     <>
       <section id="lifeStyle">
         <Carousel
-          nextIcon={<FaChevronRight className="text-black" />}
-          prevIcon={<FaChevronLeft className="text-black" />}
+          nextIcon={<FaArrowRightLong className="text-black" />}
+          prevIcon={<FaArrowLeftLong className="text-black" />}
         >
           <Carousel.Item>
             <Image src={bannerOne} alt="slider" />
