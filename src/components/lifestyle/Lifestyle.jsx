@@ -14,8 +14,7 @@ const Banner = () => {
         >
           <Carousel.Item>
             <Image src={bannerOne} alt="slider" />
-
-            <div className=" sliderContent shadow-lg">
+            <div className="sliderContent">
               <h3 className="fw-bold">LIFESTYLE AT CASAGRAND</h3>
               <p>
                 Over 40,000 happy families have found their dream home at
@@ -26,7 +25,7 @@ const Banner = () => {
           <Carousel.Item>
             <Image src={bannerTwo} alt="slider" />
 
-            <div className=" sliderContent">
+            <div className="sliderContent">
               <h3>LIFESTYLE AT CASAGRAND</h3>
               <p>
                 Over 40,000 happy families have found their dream home at
