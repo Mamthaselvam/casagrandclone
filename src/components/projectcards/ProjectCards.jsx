@@ -22,7 +22,7 @@ const ProjectCards = () => {
           <div>
             <p className="text-center fs-1">PROJECTS ACROSS SOUTH INDIA</p>
             <Tabs
-              defaultActiveKey="profile"
+              defaultActiveKey="home"
               id="fill-tab-example"
               className="mb-4 justify-content-center custom-tab"
             >
