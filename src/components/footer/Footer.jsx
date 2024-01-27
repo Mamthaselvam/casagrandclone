@@ -1,7 +1,14 @@
 import "./footer.scss";
+import fb from '../../images/fb.webp'
+import twitter from '../../images/twitter.webp'
+import insta from '../../images/insta.webp'
+import pinterest from '../../images/pinterest.webp'
+import linkedin from '../../images/linkedin.webp'
+import youtube from '../../images/youtube.webp'
 import { Container, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { FaFacebook } from "react-icons/fa6";
+
+
 
 const Footer = () => {
   return (
@@ -36,16 +43,28 @@ const Footer = () => {
           </div>
 
           <div>
-            <a href="/" className="mx-3">
-              <FaFacebook />
+            <a href="https://www.facebook.com" >
+            <img src={fb} />
             </a>
 
-            <a href="/" className="mx-3">
-              <FaFacebook />
+            <a href="https://twitter.com/" >
+            <img src={twitter}  />
             </a>
 
-            <a href="/" className="mx-3">
-              <FaFacebook />
+            <a href="https://www.instagram.com/" >
+            <img src={insta} />
+            </a>
+
+            <a href="https://www.linkedin.com/" >
+            <img src={linkedin} />
+            </a>
+
+            <a href="https://www.youtube.com/" >
+            <img src={youtube} />
+            </a>
+
+            <a href="https://in.pinterest.com/" >
+            <img src={pinterest} />
             </a>
           </div>
         </Col>
