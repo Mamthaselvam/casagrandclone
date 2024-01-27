@@ -1,5 +1,4 @@
 import "./banner.scss";
-
 import { Carousel, Image } from "react-bootstrap";
 import bannerOne from "../../assets/bannerOne.jpg";
 import bannerTwo from "../../assets/bannerTwo.jpg";
