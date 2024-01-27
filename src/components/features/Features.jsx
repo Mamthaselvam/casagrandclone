@@ -1,7 +1,7 @@
-import React from "react";
+import "./features.scss";
+
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./features.scss";
 import icon1 from "../../assets/icon1.png";
 import icon2 from "../../assets/icon2.png";
 import icon3 from "../../assets/icon3.png";
@@ -9,39 +9,48 @@ import icon4 from "../../assets/icon4.png";
 import icon5 from "../../assets/icon5.png";
 import icon6 from "../../assets/icon6.png";
 import icon7 from "../../assets/icon7.png";
+
 const Features = () => {
   return (
     <>
-      <section className="main">
+      <section id="features">
         {/* First Row */}
         <Container>
-        <Row>
-          <Col>
-            <img src={icon1} />
-          </Col>
-          <Col>
-          <img src={icon2} />
-          </Col>
-          <Col>
-          <img src={icon3} />
-          </Col>
-          <Col>
-          <img src={icon4} />
-          </Col>
-        </Row>
+          <Row>
+            <Col xl={3}>
+              <img src={icon1} className="icon" />
+              <div className="mt-3">lorem lorem lorem lorem</div>
+            </Col>
+            <Col xl={3}>
+              <img src={icon2} className="icon" />
+              <div className="mt-3">lorem lorem lorem lorem</div>
+            </Col>
+            <Col xl={3}>
+              <img src={icon3} className="icon" />
+              <div className="mt-3">lorem lorem lorem lorem</div>
+            </Col>
+            <Col xl={3}>
+              <img src={icon4} className="icon" />
+              <div className="mt-3">lorem lorem lorem lorem</div>
+            </Col>
+          </Row>
 
-        {/* Second Row */}
-        <Row >
-          <Col>
-          <img src={icon5} />
-          </Col>
-          <Col>
-          <img src={icon6} />
-          </Col>
-          <Col>
-          <img src={icon7} />
-          </Col>
-        </Row>
+          <Row className="mt-5">
+            <Col xl={4}>
+              <img src={icon4} className="icon" />
+              <div className="mt-3">lorem lorem lorem lorem</div>
+            </Col>
+
+            <Col xl={4}>
+              <img src={icon4} className="icon" />
+              <div className="mt-3">lorem lorem lorem lorem</div>
+            </Col>
+
+            <Col xl={4}>
+              <img src={icon4} className="icon" />
+              <div className="mt-3">lorem lorem lorem lorem</div>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>
