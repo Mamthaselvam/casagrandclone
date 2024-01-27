@@ -1,7 +1,7 @@
 #lifeStyle {
-  overflow: hidden;
+  overflow: visible;
   height: 65vh;
-  position: relative;
+  // position: relative;
   img {
     height: 65vh;
     width: 100%;
@@ -29,7 +29,7 @@
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     border-radius: 23px;
-    box-shadow: 2px 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px 2px rgb(243, 243, 243);
   }
 
   .carousel-control-next {

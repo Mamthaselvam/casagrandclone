@@ -38,7 +38,7 @@ const Banner = () => {
           <Carousel.Item>
             <Image src={lifeThree} alt="slider" />
 
-            <div className=" sliderContent">
+            <div className="sliderContent">
               <h3>LIFESTYLE AT CASAGRAND</h3>
               <p>
                 Over 40,000 happy families have found their dream home at

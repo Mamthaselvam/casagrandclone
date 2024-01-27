@@ -30,15 +30,15 @@ const About = () => {
 
                 <div>
                   <div>
-                    <FaHome />
+                    <MdGroup />
                   </div>
-                  <div>DESIGNING AND INNOVATING GREAT HOMES</div>
+                  <div>BUILDING ASPIRATIONS WITH OUR HOMES</div>
                 </div>
                 <div>
                   <div>
-                    <FaHome />
+                    <SlBadge />
                   </div>
-                  <div>DESIGNING AND INNOVATING GREAT HOMES</div>
+                  <div>DELIVERING ON TIME, EVERY TIME</div>
                 </div>
               </div>
             </Col>
@@ -75,23 +75,24 @@ const About = () => {
 
                   <div className="d-flex">
                     <span className="mx-3">
-                      <FaBuilding />
+                      <FaRegSmile />
                     </span>
                     <div>
-                      <p className="mb-0">140+</p>
-                      <p className="mb-0">LANDMARKS</p>
+                      <p className="mb-0">40000+</p>
+                      <p className="mb-0">HAPPY CUSTOMERS</p>
                     </div>
                   </div>
 
                   <div className="d-flex">
                     <span className="mx-3">
-                      <FaBuilding />
+                      <PiBracketsSquareLight />
                     </span>
                     <div>
-                      <p className="mb-0">140+</p>
-                      <p className="mb-0">LANDMARKS</p>
+                      <p className="mb-0">38 MILLION+</p>
+                      <p className="mb-0">SQ.FEET DEVELOPED</p>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </Col>
