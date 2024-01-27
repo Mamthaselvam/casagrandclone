@@ -1,6 +1,4 @@
 import "./about.scss";
-import { useEffect } from "react";
-
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { FaHome, FaBuilding, FaRegSmile } from "react-icons/fa";
 import { MdGroup } from "react-icons/md";
@@ -8,15 +6,9 @@ import { PiBracketsSquareLight } from "react-icons/pi";
 import { SlBadge } from "react-icons/sl";
 import aboutImg from "../../assets/aboutImg.jpg";
 import { FaPlay } from "react-icons/fa6";
-import { Fancybox } from "@fancyapps/ui";
-import "@fancyapps/ui/dist/fancybox/fancybox.css";
+import Fancybox from "./fancyBox";
 
 const About = () => {
-  useEffect(() => {
-    // Initialize FancyBox
-    Fancybox.bind("[data-fancybox]", {});
-  }, []);
-
   return (
     <>
       <section id="about">
@@ -115,11 +107,17 @@ const About = () => {
             <Col xl={6}>
               <div className="aboutRight">
                 <Image src={aboutImg} alt="about" />
-                <div className="ytPlay">
-                  <a href="/" className="text-black">
-                    <FaPlay style={{ fontSize: "1.5rem" }} />
-                  </a>
-                </div>
+                <Fancybox>
+                  <div className="ytPlay">
+                    <a
+                      data-fancybox="gallery"
+                      href={"https://www.youtube.com/watch?v=u6BOC7CDUTQ"}
+                      className="text-black"
+                    >
+                      <FaPlay style={{ fontSize: "1.5rem" }} />
+                    </a>
+                  </div>
+                </Fancybox>
               </div>
             </Col>
           </Row>
