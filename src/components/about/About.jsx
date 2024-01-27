@@ -11,42 +11,50 @@ const About = () => {
   return (
     <>
       <section id="about">
-        <Container>
+        <Container fluid>
           <div className="text-center">
             <h2>ABOUT CASAGRAND</h2>
-            <h6 className="my-4">SOUTH INDIA'S LEADING REAL ESTATE COMPANY</h6>
+            <h6 className="my-4 subtitle">
+              SOUTH INDIA'S LEADING REAL ESTATE COMPANY
+            </h6>
           </div>
 
           {/* content */}
           <Row>
-            <Col xl={7} className="mx-auto text-center">
+            <Col xl={4} className="mx-auto text-center mb-5">
               <div className="d-flex justify-content-center align-content-center">
                 <div>
                   <div>
-                    <FaHome />
+                    <FaHome className="icon" />
                   </div>
-                  <div>DESIGNING AND INNOVATING GREAT HOMES</div>
+                  <div className="subContent">
+                    DESIGNING AND INNOVATING GREAT HOMES
+                  </div>
                 </div>
 
                 <div>
                   <div>
-                    <MdGroup />
+                    <MdGroup className="icon" />
                   </div>
-                  <div>BUILDING ASPIRATIONS WITH OUR HOMES</div>
+                  <div className="subContent">
+                    BUILDING ASPIRATIONS WITH OUR HOMES
+                  </div>
                 </div>
                 <div>
                   <div>
-                    <SlBadge />
+                    <SlBadge className="icon" />
                   </div>
-                  <div>DELIVERING ON TIME, EVERY TIME</div>
+                  <div className="subContent">
+                    DELIVERING ON TIME, EVERY TIME
+                  </div>
                 </div>
               </div>
             </Col>
           </Row>
 
-          <Row className="mt-5">
+          <Row className="mt-">
             <Col xl={6}>
-              <div>
+              <div className="p-5">
                 <p>
                   Casagrand Builder Private Limited is a real estate enterprise
                   committed to building aspirations and delivering value. In the
@@ -56,7 +64,7 @@ const About = () => {
                   properties stand testimony to our commitment.
                 </p>
 
-                <p>
+                <p className="mb-4">
                   In the nineteen years of our journey, we at Casagrand are all
                   set to progress further forward with projects worth over ₹8000
                   crores in the pipeline.
@@ -65,9 +73,9 @@ const About = () => {
                 <div className="d-flex align-content-center justify-content-evenly">
                   <div className="d-flex">
                     <span className="mx-3">
-                      <FaBuilding />
+                      <FaBuilding className="icon" />
                     </span>
-                    <div>
+                    <div className="desc">
                       <p className="mb-0">140+</p>
                       <p className="mb-0">LANDMARKS</p>
                     </div>
@@ -75,9 +83,9 @@ const About = () => {
 
                   <div className="d-flex">
                     <span className="mx-3">
-                      <FaRegSmile />
+                      <FaRegSmile className="icon" />
                     </span>
-                    <div>
+                    <div className="desc">
                       <p className="mb-0">40000+</p>
                       <p className="mb-0">HAPPY CUSTOMERS</p>
                     </div>
@@ -85,14 +93,13 @@ const About = () => {
 
                   <div className="d-flex">
                     <span className="mx-3">
-                      <PiBracketsSquareLight />
+                      <PiBracketsSquareLight className="icon" />
                     </span>
-                    <div>
+                    <div className="desc">
                       <p className="mb-0">38 MILLION+</p>
                       <p className="mb-0">SQ.FEET DEVELOPED</p>
                     </div>
                   </div>
-                  
                 </div>
               </div>
             </Col>

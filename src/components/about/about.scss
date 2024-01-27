@@ -4,7 +4,26 @@
 
   .aboutRight {
     position: relative;
-    background-color: red;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .icon {
+    font-size: 2.3rem;
+  }
+
+  .subContent {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+
+  .desc {
+    font-size: 0.9rem;
+    font-weight: 500;
   }
 
   img {
