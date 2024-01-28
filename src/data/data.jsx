@@ -91,6 +91,7 @@ export const bengaluru = [
     price: "Apt-Rs.57 L Onwards*",
   },
 ];
+
 export const coimbatore = [
   {
     id: 1,
@@ -102,6 +103,7 @@ export const coimbatore = [
     price: "Apt-Rs.57 L Onwards*",
   },
 ];
+
 export const hyderabad = [
   {
     id: 1,
@@ -111,5 +113,169 @@ export const hyderabad = [
     place: "ORR,South Hyderabad",
     bhk: "2&3 BHK Apartments",
     price: "Apt-Rs.57 L Onwards*",
+  },
+];
+
+// search home page
+export const projectData = [
+  {
+    id: 1,
+    location: "Chennai",
+    projectType: "Apartments",
+    projectStatus: "New Launch",
+    price: "Starting from $100,000",
+    features: ["Swimming Pool", "Gym", "Play Area"],
+    contact: {
+      name: "John Doe",
+      email: "john@example.com",
+      phone: "+1 123-456-7890",
+    },
+  },
+
+  {
+    id: 2,
+    location: "Hyderabad",
+    projectType: "Apartments",
+    projectStatus: "Under Construction",
+    price: "Starting from $100,000",
+    features: ["Swimming Pool", "Gym", "Play Area"],
+    contact: {
+      name: "John Doe",
+      email: "john@example.com",
+      phone: "+1 123-456-7890",
+    },
+  },
+
+  {
+    id: 3,
+    location: "Chennai",
+    projectType: "Plots",
+    projectStatus: "New Launch",
+    price: "Starting from $100,000",
+    features: ["Swimming Pool", "Gym", "Play Area"],
+    contact: {
+      name: "John Doe",
+      email: "john@example.com",
+      phone: "+1 123-456-7890",
+    },
+  },
+
+  {
+    id: 4,
+    location: "Chennai",
+    projectType: "Plots",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    projectStatus: "New Launch",
+    price: "Starting from $100,000",
+    features: ["Swimming Pool", "Gym", "Play Area"],
+    contact: {
+      name: "John Doe",
+      email: "john@example.com",
+      phone: "+1 123-456-7890",
+    },
+  },
+
+  {
+    id: 4,
+    location: "Chennai",
+    projectType: "Plots",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    projectStatus: "New Launch",
+    price: "Starting from $100,000",
+    features: ["Swimming Pool", "Gym", "Play Area"],
+    contact: {
+      name: "John Doe",
+      email: "john@example.com",
+      phone: "+1 123-456-7890",
+    },
+  },
+  {
+    id: 4,
+    location: "Chennai",
+    projectType: "Plots",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    projectStatus: "New Launch",
+    price: "Starting from $100,000",
+    features: ["Swimming Pool", "Gym", "Play Area"],
+    contact: {
+      name: "John Doe",
+      email: "john@example.com",
+      phone: "+1 123-456-7890",
+    },
+  },
+  {
+    id: 4,
+    location: "Chennai",
+    projectType: "Plots",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    projectStatus: "New Launch",
+    price: "Starting from $100,000",
+    features: ["Swimming Pool", "Gym", "Play Area"],
+    contact: {
+      name: "John Doe",
+      email: "john@example.com",
+      phone: "+1 123-456-7890",
+    },
+  },
+  {
+    id: 4,
+    location: "Chennai",
+    projectType: "Plots",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    projectStatus: "New Launch",
+    price: "Starting from $100,000",
+    features: ["Swimming Pool", "Gym", "Play Area"],
+    contact: {
+      name: "John Doe",
+      email: "john@example.com",
+      phone: "+1 123-456-7890",
+    },
+  },
+
+  {
+    id: 5,
+    location: "Bengaluru",
+    projectType: "Plots",
+    projectStatus: "Under Construction",
+    price: "Starting from $50,000",
+    features: ["Gated Community", "Park"],
+    contact: {
+      name: "Jane Smith",
+      email: "jane@example.com",
+      phone: "+1 987-654-3210",
+    },
+  },
+
+  {
+    id: 6,
+    location: "Coimbatore",
+    projectType: "Villas",
+    projectStatus: "Under Construction",
+    price: "Starting from $50,000",
+    features: ["Gated Community", "Park"],
+    contact: {
+      name: "Jane Smith",
+      email: "jane@example.com",
+      phone: "+1 987-654-3210",
+    },
+  },
+
+  {
+    id: 7,
+    location: "Hyderabad",
+    projectType: "Villas",
+    projectStatus: "Under Construction",
+    price: "Starting from $50,000",
+    features: ["Gated Community", "Park"],
+    contact: {
+      name: "Jane Smith",
+      email: "jane@example.com",
+      phone: "+1 987-654-3210",
+    },
   },
 ];

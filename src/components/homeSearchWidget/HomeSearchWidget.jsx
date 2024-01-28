@@ -1,17 +1,59 @@
 import { useState } from "react";
 import { Button, Col, Form, Row, Container } from "react-bootstrap";
-import { Slider, Select } from "antd";
+import { Select } from "antd";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./searchWidget.scss";
+import { projectData } from "../../data/data";
 
 const HomeSearchWidget = () => {
+  const [selectedLocation, setSelectedLocation] = useState("");
   const [selectedProjectType, setSelectedProjectType] = useState("");
+  const [selectedProjectStatus, setSelectedProjectStatus] = useState("");
+  const [showData, setShowData] = useState([]);
+
+  const handleLocationChange = (value) => {
+    setSelectedLocation(value);
+  };
 
   const handleProjectTypeChange = (value) => {
     setSelectedProjectType(value);
   };
+
+  const handleProjectStatusChange = (value) => {
+    setSelectedProjectStatus(value);
+  };
+
+  const handleEnquireNowClick = () => {
+    const filteredProjects = projectData.filter(
+      (project) =>
+        (!selectedLocation || project.location === selectedLocation) &&
+        (!selectedProjectType || project.projectType === selectedProjectType) &&
+        (!selectedProjectStatus ||
+          project.projectStatus === selectedProjectStatus[0])
+    );
+
+    setShowData(filteredProjects);
+  };
+
+  const locationOptions = [
+    { value: "Chennai", label: "Chennai" },
+    { value: "Bengaluru", label: "Bengaluru" },
+    { value: "Coimbatore", label: "Coimbatore" },
+    { value: "Hyderabad", label: "Hyderabad" },
+  ];
+
+  const projectTypeOptions = [
+    { value: "Apartments", label: "Apartments" },
+    { value: "Plots", label: "Plots" },
+    { value: "Villas", label: "Villas" },
+  ];
+
+  const projectStatusOptions = [
+    { value: "New Launch", label: "New Launch" },
+    { value: "Under Construction", label: "Under Construction" },
+    { value: "Ready to Occupy", label: "Ready to Occupy" },
+    { value: "Nearing Completion", label: "Nearing Completion" },
+  ];
 
   return (
     <>
@@ -22,31 +64,44 @@ const HomeSearchWidget = () => {
           <Form>
             <Row className="mb-3">
               <Col xl={4} className="my-2">
-                <Form.Select>
+                <Form.Select
+                  onChange={(e) => handleLocationChange(e.target.value)}
+                >
                   <option>Location</option>
-                  <option value="1">Chennai</option>
-                  <option value="2">Bengaluru</option>
-                  <option value="3">Coimbatore</option>
-                  <option value="4">Hyderabad</option>
+                  {locationOptions.map((option) => (
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
                 </Form.Select>
               </Col>
 
               <Col xl={4} className="my-2">
-                <Form.Select onChange={(e) => handleProjectTypeChange(e.target.value)}>
+                <Form.Select
+                  onChange={(e) => handleProjectTypeChange(e.target.value)}
+                >
                   <option>Project Type</option>
-                  <option value="1">Apartments</option>
-                  <option value="2">Plots</option>
-                  <option value="3">Villas</option>
+                  {projectTypeOptions.map((option) => (
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
                 </Form.Select>
               </Col>
 
               <Col xl={4} className="my-2">
-                {selectedProjectType !== "2" && (
-                  <Select mode="multiple" style={{ width: "100%" }} placeholder="Project Status">
-                    <Select.Option value="new_launch">New Launch</Select.Option>
-                    <Select.Option value="under_construction">Under Construction</Select.Option>
-                    <Select.Option value="ready_to_occupy">Ready to Occupy</Select.Option>
-                    <Select.Option value="nearing_completion">Nearing Completion</Select.Option>
+                {selectedProjectType !== "Plots" && (
+                  <Select
+                    mode="multiple"
+                    style={{ width: "100%" }}
+                    placeholder="Project Status"
+                    onChange={(values) => handleProjectStatusChange(values)}
+                  >
+                    {projectStatusOptions.map((option) => (
+                      <Select.Option key={option.value} value={option.value}>
+                        {option.label}
+                      </Select.Option>
+                    ))}
                   </Select>
                 )}
               </Col>
@@ -55,13 +110,36 @@ const HomeSearchWidget = () => {
         </Container>
 
         <div className="text-center">
-          <Button className="custom-button">
+          <Button className="custom-button" onClick={handleEnquireNowClick}>
             Enquire Now
             <span className="mx-2">
               <FaArrowRightLong />
             </span>
           </Button>
         </div>
+
+        <Container>
+          <Row>
+            {showData?.map((data) => (
+              <>
+                <Col xl={4} key={data.id}>
+                  <div className="">
+                    {data.imgsrc && (
+                      <img src={data.imgsrc} width="60" height="60" />
+                    )}
+
+                    <p>{data.location}</p>
+                    <p>{data.projectType}</p>
+                    <p>{data.projectStatus}</p>
+                    <p>{data.price}</p>
+                    <p>{data.contact.name}</p>
+                    <p>{data.contact.email}</p>
+                  </div>
+                </Col>
+              </>
+            ))}
+          </Row>
+        </Container>
       </section>
     </>
   );
