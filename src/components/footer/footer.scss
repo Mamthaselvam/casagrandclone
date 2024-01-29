@@ -44,10 +44,10 @@
 
 .ant-drawer .ant-drawer-content {
   background-color: goldenrod;
-  top: 29%;
+  top: 10%;
   right: 0;
   position: fixed;
-  height: 400px;
+  height: 350px;
   width: 200px;
 }
 
@@ -57,8 +57,10 @@
 
 .ant-drawer-content-wrapper {
   box-shadow: none !important;
+  height: 400px;
 }
 
 .ant-drawer .ant-drawer-body {
   overflow: hidden;
+  height: 400px;
 }
