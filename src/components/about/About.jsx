@@ -108,14 +108,16 @@ const About = () => {
               <div className="aboutRight">
                 <Image src={aboutImg} alt="about" />
                 <Fancybox>
-                  <div className="ytPlay">
-                    <a
-                      data-fancybox="gallery"
-                      href={"https://www.youtube.com/watch?v=u6BOC7CDUTQ"}
-                      className="text-black"
-                    >
-                      <FaPlay style={{ fontSize: "1.5rem" }} />
-                    </a>
+                  <div className="ytPlay wrapper">
+                    <div className="circle pulse">
+                      <a
+                        data-fancybox="gallery"
+                        href={"https://www.youtube.com/watch?v=u6BOC7CDUTQ"}
+                        className="text-black"
+                      >
+                        <FaPlay style={{ fontSize: "1.5rem" }} />
+                      </a>
+                    </div>
                   </div>
                 </Fancybox>
               </div>
