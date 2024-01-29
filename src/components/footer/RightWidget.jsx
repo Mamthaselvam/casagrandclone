@@ -38,14 +38,14 @@ const RightWidget = () => {
         className="drawer"
       >
        
-        <p>Chennai</p>
+        <div className="info"><p>Chennai</p>
         <p> 99629 44444</p>
         <p>Coimbatore</p>
         <p> 99629 44444</p>
         <p>Bengaluru</p>
         <p> 99629 44444</p>
         <p>Hyderabad</p>
-        <p> 99629 44444</p>
+        <p> 99629 44444</p></div>
         <div onClick={onClose} className="close"><FaRegWindowClose/></div>
       </Drawer>
      

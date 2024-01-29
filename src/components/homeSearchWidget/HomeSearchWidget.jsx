@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Col, Form, Row, Container } from "react-bootstrap";
+import { Button, Col, Form, Row, Container, Card, CardImg } from "react-bootstrap";
 import { Select } from "antd";
 import { FaArrowRightLong } from "react-icons/fa6";
 import "./searchWidget.scss";

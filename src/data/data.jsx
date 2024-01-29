@@ -121,6 +121,8 @@ export const projectData = [
   {
     id: 1,
     location: "Chennai",
+    imgsrc:
+      "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
     projectType: "Apartments",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
