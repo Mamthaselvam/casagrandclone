@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Button, Col, Form, Row, Container, Card } from "react-bootstrap";
 import { Select } from "antd";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { SlLocationPin } from "react-icons/sl";
+import { IoBedOutline, IoShareSocialSharp } from "react-icons/io5";
+import { HiOutlineCurrencyRupee } from "react-icons/hi2";
 import "./searchWidget.scss";
 import { projectData } from "../../data/data";
 
@@ -127,10 +130,36 @@ const HomeSearchWidget = () => {
                     <Card.Img variant="top" src={data.imgsrc} height="300" />
                     <Card.Body>
                       <Card.Title>{data.title}</Card.Title>
-                      <Card.Text>{data.location}</Card.Text>
-                      <Card.Text>{data.subTitle}</Card.Text>
-
-                      <Button>{data.btnText}</Button>
+                      <Card.Text>
+                      <div className="loc">
+                                <span className="venue">
+                                  <SlLocationPin />
+                                </span>
+                                <span className="location ">{data.place}</span>
+                              </div>
+                        </Card.Text>
+                      <Card.Text>
+                      <div>
+                                <span className="room">
+                                  <IoBedOutline />
+                                </span>
+                                <span className="space">{data.bhk}</span>
+                              </div>
+                       </Card.Text>
+                      <Card.Text>
+                      <div >
+                                <span className="amount">
+                                  <HiOutlineCurrencyRupee />
+                                </span>
+                                <span className="rupees">{data.price}</span>
+                              </div>
+                        </Card.Text>
+                        <button className="share">
+                              <span className="sharp">
+                                <IoShareSocialSharp />
+                              </span>
+                            </button>
+                      
                     </Card.Body>
                   </Card>
                 </Col>

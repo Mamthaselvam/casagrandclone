@@ -64,7 +64,6 @@ const ProjectCards = () => {
                               </div>
                               <div className="extra">
                                 <div>
-                                  {" "}
                                   <button className="view">
                                     View More <BsArrowRightCircle />
                                   </button>

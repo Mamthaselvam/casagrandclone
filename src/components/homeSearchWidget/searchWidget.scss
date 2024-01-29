@@ -29,4 +29,47 @@
   a {
     color: inherit;
   }
+  .venue {
+    margin-left: 1rem;
+    color: rgb(196, 175, 143);
+    font-size: 1.5rem;
+  }
+  .room {
+    margin-left: 1rem;
+    color: rgb(196, 175, 143);
+    font-size: 1.5rem;
+  }
+  .amount {
+    margin-left: 1rem;
+    color: rgb(196, 175, 143);
+    font-size: 1.5rem;
+  }
+  .location {
+    margin-left: 0.5rem;
+  }
+  .space {
+    margin-left: 0.5rem;
+  }
+  .rupees {
+    margin-left: 0.5rem;
+  }
+  .sharp {
+    color: rgb(255, 156, 0);
+  }
+  .share {
+    border-radius: 20px;
+    padding: 4px 8px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  .loc {
+    margin-top: 1rem;
+  }
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
 }
