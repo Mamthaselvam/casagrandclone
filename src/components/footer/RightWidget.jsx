@@ -1,7 +1,7 @@
 import { Drawer } from "antd";
 import { useState } from "react";
-import phone from '../../assets/phone.webp'
-import whatsapp from '../../assets/whatsapp.webp'
+import phone from "../../assets/phone.webp";
+import whatsapp from "../../assets/whatsapp.webp";
 import { FaRegWindowClose } from "react-icons/fa";
 
 const RightWidget = () => {
@@ -18,14 +18,13 @@ const RightWidget = () => {
   return (
     <>
       <div className="whatsAppIcon">
-        <div onClick={showDrawer} className="phoneIcon"><img src={phone} className="icon1"/></div>
-        <a href="https://whatsapp.com/">
-        <img src={whatsapp} className="icon2"/>
-        </a>
-        <div>
-        
-          
+        <div onClick={showDrawer} className="phoneIcon">
+          <img src={phone} className="icon1" />
         </div>
+        <a href="https://whatsapp.com/">
+          <img src={whatsapp} className="icon2" />
+        </a>
+        <div></div>
       </div>
 
       <Drawer
@@ -37,7 +36,6 @@ const RightWidget = () => {
         getContainer={false}
         className="drawer"
       >
-       
         <p>Chennai</p>
         <p> 99629 44444</p>
         <p>Coimbatore</p>
@@ -46,9 +44,10 @@ const RightWidget = () => {
         <p> 99629 44444</p>
         <p>Hyderabad</p>
         <p> 99629 44444</p>
-        <div onClick={onClose} className="close"><FaRegWindowClose/></div>
+        <div onClick={onClose} className="close">
+          <FaRegWindowClose />
+        </div>
       </Drawer>
-     
     </>
   );
 };

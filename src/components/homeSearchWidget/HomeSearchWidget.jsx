@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Col, Form, Row, Container } from "react-bootstrap";
+import { Button, Col, Form, Row, Container, Card } from "react-bootstrap";
 import { Select } from "antd";
 import { FaArrowRightLong } from "react-icons/fa6";
 import "./searchWidget.scss";
@@ -122,19 +122,17 @@ const HomeSearchWidget = () => {
           <Row>
             {showData?.map((data) => (
               <>
-                <Col xl={4} key={data.id}>
-                  <div className="">
-                    {data.imgsrc && (
-                      <img src={data.imgsrc} width="60" height="60" />
-                    )}
+                <Col xl={4} key={data.id} className="my-2">
+                  <Card>
+                    <Card.Img variant="top" src={data.imgsrc} height="300" />
+                    <Card.Body>
+                      <Card.Title>{data.title}</Card.Title>
+                      <Card.Text>{data.location}</Card.Text>
+                      <Card.Text>{data.subTitle}</Card.Text>
 
-                    <p>{data.location}</p>
-                    <p>{data.projectType}</p>
-                    <p>{data.projectStatus}</p>
-                    <p>{data.price}</p>
-                    <p>{data.contact.name}</p>
-                    <p>{data.contact.email}</p>
-                  </div>
+                      <Button>{data.btnText}</Button>
+                    </Card.Body>
+                  </Card>
                 </Col>
               </>
             ))}

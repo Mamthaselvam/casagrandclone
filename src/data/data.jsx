@@ -46,7 +46,7 @@ export const maincontent = [
     title: "Casagrand Cloud9",
     place: "Shollinganallur,OMR",
     bhk: "2,3&4 BHK Apts|4 BHK Floor Villa",
-    price: "2,3&4 BHK Apts-93 Lakhs Onwards |4BHK",
+    price: "2,3&4 BHK Apts-93 Lakhs Onwards*",
   },
 
   {
@@ -122,14 +122,9 @@ export const projectData = [
     id: 1,
     location: "Chennai",
     projectType: "Apartments",
+    title: "Casagrand Palm Springs",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
-    features: ["Swimming Pool", "Gym", "Play Area"],
-    contact: {
-      name: "John Doe",
-      email: "john@example.com",
-      phone: "+1 123-456-7890",
-    },
   },
 
   {
@@ -138,103 +133,72 @@ export const projectData = [
     projectType: "Apartments",
     projectStatus: "Under Construction",
     price: "Starting from $100,000",
-    features: ["Swimming Pool", "Gym", "Play Area"],
-    contact: {
-      name: "John Doe",
-      email: "john@example.com",
-      phone: "+1 123-456-7890",
-    },
   },
 
   {
     id: 3,
     location: "Chennai",
     projectType: "Plots",
+    title: "Casagrand Palm Springs",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
-    features: ["Swimming Pool", "Gym", "Play Area"],
-    contact: {
-      name: "John Doe",
-      email: "john@example.com",
-      phone: "+1 123-456-7890",
-    },
   },
 
   {
     id: 4,
     location: "Chennai",
     projectType: "Plots",
+    subTitle: "2&3 BHK Apartments",
+    title: "Casagrand Palm Springs",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
-    features: ["Swimming Pool", "Gym", "Play Area"],
-    contact: {
-      name: "John Doe",
-      email: "john@example.com",
-      phone: "+1 123-456-7890",
-    },
   },
 
   {
     id: 4,
     location: "Chennai",
     projectType: "Plots",
+    subTitle: "2&3 BHK Apartments",
+    title: "Casagrand Palm Springs",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
-    features: ["Swimming Pool", "Gym", "Play Area"],
-    contact: {
-      name: "John Doe",
-      email: "john@example.com",
-      phone: "+1 123-456-7890",
-    },
   },
   {
     id: 4,
     location: "Chennai",
+    title: "Casagrand Palm Springs",
     projectType: "Plots",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
-    features: ["Swimming Pool", "Gym", "Play Area"],
-    contact: {
-      name: "John Doe",
-      email: "john@example.com",
-      phone: "+1 123-456-7890",
-    },
   },
   {
     id: 4,
     location: "Chennai",
     projectType: "Plots",
+    subTitle: "2&3 BHK Apartments",
+    title: "Casagrand Palm Springs",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
-    features: ["Swimming Pool", "Gym", "Play Area"],
-    contact: {
-      name: "John Doe",
-      email: "john@example.com",
-      phone: "+1 123-456-7890",
-    },
   },
   {
     id: 4,
     location: "Chennai",
     projectType: "Plots",
+    subTitle: "2&3 BHK Apartments",
+    title: "Casagrand Palm Springs",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
-    features: ["Swimming Pool", "Gym", "Play Area"],
-    contact: {
-      name: "John Doe",
-      email: "john@example.com",
-      phone: "+1 123-456-7890",
-    },
+    btnText: "View More",
   },
 
   {

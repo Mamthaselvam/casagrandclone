@@ -54,8 +54,6 @@
   }
 }
 
-$primary: red;
-
 .wrapper {
   position: relative;
   width: 150px;
@@ -71,7 +69,6 @@ $primary: red;
     right: 0;
     bottom: 0;
     border-radius: 50%;
-    background-color: $primary;
     margin: auto;
     transform: scale(1, 1);
 
@@ -81,21 +78,21 @@ $primary: red;
       justify-content: center;
       animation-timing-function: ease;
       animation: pulse 2s infinite;
-      background-color: lighten($primary, 25%);
+      background-color: lighten(#fff, 25%);
     }
   }
 
   svg {
-    fill: darken($primary, 12%);
-    stroke: darken($primary, 12%);
+    fill: darken(#ff0000, 12%);
+    stroke: darken(#ff0000, 12%);
     stroke-linejoin: round;
     stroke-width: 5;
     transition: all 0.3s;
 
     &:hover {
       cursor: pointer;
-      fill: darken($primary, 17%);
-      stroke: darken($primary, 17%);
+      fill: darken(#ff0000, 17%);
+      stroke: darken(#ff0000, 17%);
       transform: scale(1.2, 1.2);
     }
   }
