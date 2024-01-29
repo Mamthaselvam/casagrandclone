@@ -44,6 +44,10 @@
     background-color: rgb(183, 184, 186);
     border-radius: 0;
   }
+  .extra{
+    display: flex;
+    justify-content: space-around;
+  }
 
   .end {
     margin-bottom: 1rem;
@@ -53,14 +57,14 @@
     border: none;
     background-color: white;
     cursor: pointer;
-    margin-left: 2rem;
+    // margin-left: 2rem;
   }
   .down {
     color: rgb(86, 86, 86);
     border: none;
     background-color: white;
     cursor: pointer;
-    margin-left: 10rem;
+    // margin-left: 6rem;
   }
   .change {
     background-color: rgb(214, 214, 214);
