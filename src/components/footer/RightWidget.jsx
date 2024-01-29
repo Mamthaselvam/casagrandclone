@@ -13,13 +13,13 @@ const RightWidget = () => {
   };
 
   return (
-    <>
+    <> 
       <div className="whatsAppIcon">
         <div onClick={showDrawer}>icno1</div>
         <div>icno2</div>
       </div>
 
-      <Drawer
+      <Drawer 
         title="Basic Drawer"
         placement="right"
         closable={false}
