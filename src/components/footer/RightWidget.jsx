@@ -2,6 +2,7 @@ import { Drawer } from "antd";
 import { useState } from "react";
 import phone from '../../assets/phone.webp'
 import whatsapp from '../../assets/whatsapp.webp'
+import { FaRegWindowClose } from "react-icons/fa";
 
 const RightWidget = () => {
   const [open, setOpen] = useState(false);
@@ -34,8 +35,9 @@ const RightWidget = () => {
         onClose={onClose}
         open={open}
         getContainer={false}
+        className="drawer"
       >
-        <p></p>
+       
         <p>Chennai</p>
         <p> 99629 44444</p>
         <p>Coimbatore</p>
@@ -44,8 +46,9 @@ const RightWidget = () => {
         <p> 99629 44444</p>
         <p>Hyderabad</p>
         <p> 99629 44444</p>
-        <div onClick={onClose}>close</div>
+        <div onClick={onClose} className="close"><FaRegWindowClose/></div>
       </Drawer>
+     
     </>
   );
 };

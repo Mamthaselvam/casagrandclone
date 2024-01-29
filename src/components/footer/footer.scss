@@ -36,6 +36,14 @@
   padding-bottom: 50px;
 
 }
+.drawer{
+  position: relative;
+}
+.close{
+  position: absolute;
+  top:0;
+  left: 2%;
+}
 
 .ant-drawer .ant-drawer-content {
   background-color: goldenrod;
