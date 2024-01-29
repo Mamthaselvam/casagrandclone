@@ -29,23 +29,26 @@ const RightWidget = () => {
 
       <Drawer
         title="CALL US"
-        placement="right"
+        placement="end"
         closable={false}
         onClose={onClose}
         open={open}
         getContainer={false}
         className="drawer"
       >
-       
-        <div className="info"><p>Chennai</p>
-        <p> 99629 44444</p>
-        <p>Coimbatore</p>
-        <p> 99629 44444</p>
-        <p>Bengaluru</p>
-        <p> 99629 44444</p>
-        <p>Hyderabad</p>
-        <p> 99629 44444</p></div>
-        <div onClick={onClose} className="close"><FaRegWindowClose/></div>
+        <div className="info">
+          <p>Chennai</p>
+          <p> 99629 44444</p>
+          <p>Coimbatore</p>
+          <p> 99629 44444</p>
+          <p>Bengaluru</p>
+          <p> 99629 44444</p>
+          <p>Hyderabad</p>
+          <p> 99629 44444</p>
+        </div>
+        <div onClick={onClose} className="close">
+          <FaRegWindowClose />
+        </div>
       </Drawer>
     </>
   );
