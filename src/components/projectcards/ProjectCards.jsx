@@ -62,13 +62,13 @@ const ProjectCards = () => {
                                 </span>
                                 <span className="rupees">{item.price}</span>
                               </div>
-                              <div className="end">
-                                <button className="view">
+                              <div className="extra">
+                                <div> <button className="view">
                                   View More <BsArrowRightCircle />
-                                </button>
-                                <button className="down">
+                                </button></div>
+                                <div><button className="down">
                                   Bronchure <BsArrowDownCircle />
-                                </button>
+                                </button></div>
                               </div>
                             </Card.Text>
                             <button className="share">

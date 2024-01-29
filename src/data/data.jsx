@@ -125,7 +125,7 @@ export const projectData = [
       "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-439391.jpg&fm=jpg",
     projectType: "Apartments",
     title: "Casagrand Palm Springs",
-    projectStatus: "New Launch",
+    bhk: "2&3 BHK Apartments",
     price: "Starting from $100,000",
   },
 
@@ -133,7 +133,7 @@ export const projectData = [
     id: 2,
     location: "Hyderabad",
     projectType: "Apartments",
-    projectStatus: "Under Construction",
+    bhk: "2&3 BHK Apartments",
     price: "Starting from $100,000",
   },
 
@@ -142,6 +142,18 @@ export const projectData = [
     location: "Chennai",
     projectType: "Plots",
     title: "Casagrand Palm Springs",
+    bhk: "2&3 BHK Apartments",
+    price: "Starting from $100,000",
+  },
+
+  {
+    id: 4,
+    location: "Chennai",
+    projectType: "Plots",
+    bhk: "2&3 BHK Apartments",
+    title: "Casagrand Palm Springs",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     projectStatus: "New Launch",
     price: "Starting from $100,000",
   },
@@ -150,23 +162,11 @@ export const projectData = [
     id: 4,
     location: "Chennai",
     projectType: "Plots",
-    subTitle: "2&3 BHK Apartments",
+    bhk: "2&3 BHK Apartments",
     title: "Casagrand Palm Springs",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    projectStatus: "New Launch",
-    price: "Starting from $100,000",
-  },
-
-  {
-    id: 4,
-    location: "Chennai",
-    projectType: "Plots",
-    subTitle: "2&3 BHK Apartments",
-    title: "Casagrand Palm Springs",
-    imgsrc:
-      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    projectStatus: "New Launch",
+    
     price: "Starting from $100,000",
   },
   {
@@ -176,59 +176,54 @@ export const projectData = [
     projectType: "Plots",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    projectStatus: "New Launch",
+      bhk: "2&3 BHK Apartments",
     price: "Starting from $100,000",
   },
   {
     id: 4,
     location: "Chennai",
     projectType: "Plots",
-    subTitle: "2&3 BHK Apartments",
+    bhk: "2&3 BHK Apartments",
     title: "Casagrand Palm Springs",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    projectStatus: "New Launch",
     price: "Starting from $100,000",
   },
   {
     id: 4,
     location: "Chennai",
     projectType: "Plots",
-    subTitle: "2&3 BHK Apartments",
+    bhk: "2&3 BHK Apartments",
     title: "Casagrand Palm Springs",
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    projectStatus: "New Launch",
+   
     price: "Starting from $100,000",
-    btnText: "View More",
+    
   },
 
   {
     id: 5,
     location: "Bengaluru",
     projectType: "Plots",
-    projectStatus: "Under Construction",
     price: "Starting from $50,000",
-    features: ["Gated Community", "Park"],
-    contact: {
-      name: "Jane Smith",
-      email: "jane@example.com",
-      phone: "+1 987-654-3210",
-    },
+    bhk: "2&3 BHK Apartments",
+    title: "Casagrand Palm Springs",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 
   {
     id: 6,
     location: "Coimbatore",
     projectType: "Villas",
-    projectStatus: "Under Construction",
     price: "Starting from $50,000",
-    features: ["Gated Community", "Park"],
-    contact: {
-      name: "Jane Smith",
-      email: "jane@example.com",
-      phone: "+1 987-654-3210",
-    },
+    bhk: "2&3 BHK Apartments",
+    title: "Casagrand Palm Springs",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    
+
   },
 
   {
@@ -237,11 +232,9 @@ export const projectData = [
     projectType: "Villas",
     projectStatus: "Under Construction",
     price: "Starting from $50,000",
-    features: ["Gated Community", "Park"],
-    contact: {
-      name: "Jane Smith",
-      email: "jane@example.com",
-      phone: "+1 987-654-3210",
-    },
+    bhk: "2&3 BHK Apartments",
+    title: "Casagrand Palm Springs",
+    imgsrc:
+      "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
