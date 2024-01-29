@@ -34,7 +34,7 @@ const ProjectCards = () => {
                     return (
                       <Col xl={4} key={item.id} className="column">
                         <div className="boxes shadow">
-                          <Card className=" card mb-5">
+                          <Card className="card mb-4">
                             <Card.Img className="photo" src={item.imgsrc} />
                             <Card.Title className="tittle">
                               {item.title}
@@ -63,12 +63,17 @@ const ProjectCards = () => {
                                 <span className="rupees">{item.price}</span>
                               </div>
                               <div className="extra">
-                                <div> <button className="view">
-                                  View More <BsArrowRightCircle />
-                                </button></div>
-                                <div><button className="down">
-                                  Bronchure <BsArrowDownCircle />
-                                </button></div>
+                                <div>
+                                  {" "}
+                                  <button className="view">
+                                    View More <BsArrowRightCircle />
+                                  </button>
+                                </div>
+                                <div>
+                                  <button className="down">
+                                    Bronchure <BsArrowDownCircle />
+                                  </button>
+                                </div>
                               </div>
                             </Card.Text>
                             <button className="share">
