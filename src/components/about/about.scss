@@ -33,7 +33,7 @@
 
   .ytPlay {
     position: absolute;
-    background-color: #fff;
+    background-color: #ff0000 !important;
     width: 4rem;
     height: 4rem;
     display: flex;
@@ -54,7 +54,7 @@
   }
 }
 
-$primary: rgb(80, 255, 91);
+$primary: #ffff;
 
 .wrapper {
   position: relative;
@@ -86,16 +86,16 @@ $primary: rgb(80, 255, 91);
   }
 
   svg {
-    fill: darken($primary, 12%);
-    stroke: darken($primary, 12%);
+    fill: darken(#ff0000, 12%);
+    stroke: darken(#ff0000, 12%);
     stroke-linejoin: round;
     stroke-width: 5;
     transition: all 0.3s;
 
     &:hover {
       cursor: pointer;
-      fill: darken($primary, 17%);
-      stroke: darken($primary, 17%);
+      fill: darken(#ff0000, 17%);
+      stroke: darken(#ff0000, 17%);
       transform: scale(1.2, 1.2);
     }
   }
