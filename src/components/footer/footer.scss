@@ -17,22 +17,50 @@
 .whatsAppIcon {
   position: fixed;
   top: 30%;
-  background-color: blueviolet;
+  // background-color: blueviolet;
   right: 0;
   z-index: 99;
+ 
+  
+}
+.whatsAppIcon img{
+
+  height: 36px;
+}
+.icon1{
+  padding: 4px;
+  background-color: goldenrod;
+  border-radius: 4px;
+}
+.phoneIcon{
+  padding-bottom: 50px;
+
+}
+.drawer{
+  position: relative;
+}
+.close{
+  position: absolute;
+  top:0;
+  left: 2%;
 }
 
 .ant-drawer .ant-drawer-content {
-  background: red;
+  background-color: goldenrod;
   top: 29%;
+  right: 0;
   position: fixed;
-  height: 200px;
+  height: 400px;
+  width: 200px;
+  
 }
 
 .ant-drawer .ant-drawer-mask {
   background: none;
+  
 }
 
 .ant-drawer-content-wrapper {
   box-shadow: none !important;
+  
 }
