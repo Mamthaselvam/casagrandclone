@@ -31,8 +31,7 @@ const HomeSearchWidget = () => {
       (project) =>
         (!selectedLocation || project.location === selectedLocation) &&
         (!selectedProjectType || project.projectType === selectedProjectType) &&
-        (!selectedProjectStatus ||
-          project.projectStatus === selectedProjectStatus[0])
+        (!selectedProjectStatus || project.projectStatus === selectedProjectStatus)
     );
 
     setShowData(filteredProjects);
@@ -95,7 +94,7 @@ const HomeSearchWidget = () => {
               <Col xl={4} className="my-2">
                 {selectedProjectType !== "Plots" && (
                   <Select
-                    mode="multiple"
+                    mode="single"
                     style={{ width: "100%" }}
                     placeholder="Project Status"
                     onChange={(values) => handleProjectStatusChange(values)}
@@ -131,35 +130,34 @@ const HomeSearchWidget = () => {
                     <Card.Body>
                       <Card.Title>{data.title}</Card.Title>
                       <Card.Text>
-                      <div className="loc">
-                                <span className="venue">
-                                  <SlLocationPin />
-                                </span>
-                                <span className="location ">{data.place}</span>
-                              </div>
-                        </Card.Text>
+                        <div className="loc">
+                          <span className="venue">
+                            <SlLocationPin />
+                          </span>
+                          <span className="location ">{data.place}</span>
+                        </div>
+                      </Card.Text>
                       <Card.Text>
-                      <div>
-                                <span className="room">
-                                  <IoBedOutline />
-                                </span>
-                                <span className="space">{data.bhk}</span>
-                              </div>
-                       </Card.Text>
+                        <div>
+                          <span className="room">
+                            <IoBedOutline />
+                          </span>
+                          <span className="space">{data.bhk}</span>
+                        </div>
+                      </Card.Text>
                       <Card.Text>
-                      <div >
-                                <span className="amount">
-                                  <HiOutlineCurrencyRupee />
-                                </span>
-                                <span className="rupees">{data.price}</span>
-                              </div>
-                        </Card.Text>
-                        <button className="share">
-                              <span className="sharp">
-                                <IoShareSocialSharp />
-                              </span>
-                            </button>
-                      
+                        <div>
+                          <span className="amount">
+                            <HiOutlineCurrencyRupee />
+                          </span>
+                          <span className="rupees">{data.price}</span>
+                        </div>
+                      </Card.Text>
+                      <button className="share">
+                        <span className="sharp">
+                          <IoShareSocialSharp />
+                        </span>
+                      </button>
                     </Card.Body>
                   </Card>
                 </Col>
