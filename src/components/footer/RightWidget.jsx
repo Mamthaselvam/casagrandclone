@@ -36,27 +36,16 @@ const RightWidget = () => {
         getContainer={false}
         className="drawer"
       >
-<<<<<<< HEAD
-        <p>Chennai</p>
-=======
        
         <div className="info"><p>Chennai</p>
->>>>>>> f51b406966d6b358bede0385f8457aee6503b1f7
         <p> 99629 44444</p>
         <p>Coimbatore</p>
         <p> 99629 44444</p>
         <p>Bengaluru</p>
         <p> 99629 44444</p>
         <p>Hyderabad</p>
-<<<<<<< HEAD
-        <p> 99629 44444</p>
-        <div onClick={onClose} className="close">
-          <FaRegWindowClose />
-        </div>
-=======
         <p> 99629 44444</p></div>
         <div onClick={onClose} className="close"><FaRegWindowClose/></div>
->>>>>>> f51b406966d6b358bede0385f8457aee6503b1f7
       </Drawer>
     </>
   );
