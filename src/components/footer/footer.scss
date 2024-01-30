@@ -14,23 +14,30 @@
   }
 }
 
-.whatsAppIcon {
-  position: fixed;
-  top: 30%;
-  right: 0;
-  z-index: 99;
-}
-.whatsAppIcon img {
-  height: 36px;
-}
+
 .icon1 {
   padding: 4px;
   background-color: goldenrod;
   border-radius: 4px;
+  height: 36px;
 }
 .phoneIcon {
   padding-bottom: 50px;
   cursor: pointer;
+  position: fixed;
+  top: 30%;
+  right: 0;
+  z-index: 99;
+  
+}
+.Icon{
+  position: fixed;
+  top: 40%;
+  right: 0;
+  z-index: 99;
+}
+.icon2{
+  height: 36px;
 }
 .drawer {
   position: relative;

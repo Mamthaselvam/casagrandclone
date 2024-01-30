@@ -27,15 +27,15 @@ const RightWidget = () => {
 
   return (
     <> 
-      <div className="whatsAppIcon">
+     
         <div onClick={showDrawer} className="phoneIcon">
           <img src={phone} className="icon1" />
         </div>
-        <a href="https://whatsapp.com/">
+        <a href="https://whatsapp.com/" className="Icon">
           <img src={whatsapp} className="icon2" />
         </a>
         <div></div>
-      </div>
+     
 
       <Drawer
         title="CALL US"
