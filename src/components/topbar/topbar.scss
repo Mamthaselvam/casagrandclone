@@ -8,13 +8,15 @@
 }   
 .navs{
     display: flex;
-}
-p{
-    margin: 0 1rem;
     font-size: 20px;
     font-weight: bold;
+    
 }
-.click{
+.navs p{
+    margin: 0 1rem; 
+   
+}
+.enquire{
     padding: .5rem 2rem;
     font-size: 20px;
     font-weight: bold;

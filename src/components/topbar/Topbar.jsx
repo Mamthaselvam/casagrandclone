@@ -14,7 +14,7 @@ const Topbar = () => {
            <p>Testimonials</p>
            <p>Partner with us</p>
         </div>
-       <button className='click'>
+       <button className='enquire'>
         Enquire
        </button>
     </Navbar>
