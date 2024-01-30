@@ -28,14 +28,22 @@ const HomeSearchWidget = () => {
   };
 
   const handleEnquireNowClick = () => {
-    const filteredProjects = projectData.filter(
-      (project) =>
-        (!selectedLocation || project.location === selectedLocation) &&
-        (!selectedProjectType || project.projectType === selectedProjectType) &&
-        (!selectedProjectStatus || project.projectStatus === selectedProjectStatus)
-    );
+    if (selectedLocation === "") {
+      alert("please choose location");
+    } else if (selectedProjectType === "") {
+      alert("please choose Type");
+    } else {
+      const filteredProjects = projectData.filter(
+        (project) =>
+          (!selectedLocation || project.location === selectedLocation) &&
+          (!selectedProjectType ||
+            project.projectType === selectedProjectType) &&
+          (!selectedProjectStatus ||
+            project.projectStatus === selectedProjectStatus)
+      );
 
-    setShowData(filteredProjects);
+      setShowData(filteredProjects);
+    }
   };
 
   const locationOptions = [
@@ -68,6 +76,7 @@ const HomeSearchWidget = () => {
             <Row className="mb-3">
               <Col xl={4} className="my-2">
                 <Form.Select
+                  required="true"
                   onChange={(e) => handleLocationChange(e.target.value)}
                 >
                   <option>Location</option>
@@ -81,6 +90,7 @@ const HomeSearchWidget = () => {
 
               <Col xl={4} className="my-2">
                 <Form.Select
+                  required="true"
                   onChange={(e) => handleProjectTypeChange(e.target.value)}
                 >
                   <option>Project Type</option>
@@ -95,6 +105,7 @@ const HomeSearchWidget = () => {
               <Col xl={4} className="my-2">
                 {selectedProjectType !== "Plots" && (
                   <Select
+                    required="true"
                     mode="single"
                     style={{ width: "100%" }}
                     placeholder="Project Status"
