@@ -1,10 +1,10 @@
 import "./projectCards.scss";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-
+import { FaShareAlt } from "react-icons/fa";
 import { BsArrowRightCircle, BsArrowDownCircle } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
-import { IoBedOutline, IoShareSocialSharp } from "react-icons/io5";
+import { IoBedOutline } from "react-icons/io5";
 import { HiOutlineCurrencyRupee } from "react-icons/hi2";
 import {
   maincontent,
@@ -77,7 +77,7 @@ const ProjectCards = () => {
                             </Card.Text>
                             <button className="share">
                               <span className="sharp">
-                                <IoShareSocialSharp />
+                                <FaShareAlt/>
                               </span>
                             </button>
                           </Card>
@@ -123,7 +123,7 @@ const ProjectCards = () => {
                                 <span className="rupees">{item.price}</span>
                               </div>
 
-                              <div className="end">
+                              <div className="extra">
                                 <button className="view">
                                   View More <BsArrowRightCircle />
                                 </button>
@@ -134,7 +134,7 @@ const ProjectCards = () => {
                             </Card.Text>
                             <button className="share">
                               <span className="sharp">
-                                <IoShareSocialSharp />
+                                <FaShareAlt />
                               </span>
                             </button>
                           </Card>
@@ -179,7 +179,7 @@ const ProjectCards = () => {
                                 </span>
                                 <span className="rupees">{item.price}</span>
                               </div>
-                              <div className="end">
+                              <div className="extra">
                                 <button className="view">
                                   View More <BsArrowRightCircle />
                                 </button>
@@ -190,7 +190,7 @@ const ProjectCards = () => {
                             </Card.Text>
                             <button className="share">
                               <span className="sharp">
-                                <IoShareSocialSharp />
+                                <FaShareAlt />
                               </span>
                             </button>
                           </Card>
@@ -235,7 +235,7 @@ const ProjectCards = () => {
                                 </span>
                                 <span className="rupees">{item.price}</span>
                               </div>
-                              <div className="end">
+                              <div className="extra">
                                 <button className="view">
                                   View More <BsArrowRightCircle />
                                 </button>
@@ -246,7 +246,7 @@ const ProjectCards = () => {
                             </Card.Text>
                             <button className="share">
                               <span className="sharp">
-                                <IoShareSocialSharp />
+                                <FaShareAlt />
                               </span>
                             </button>
                           </Card>

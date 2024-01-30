@@ -3,7 +3,8 @@ import { Button, Col, Form, Row, Container, Card } from "react-bootstrap";
 import { Select } from "antd";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { SlLocationPin } from "react-icons/sl";
-import { IoBedOutline, IoShareSocialSharp } from "react-icons/io5";
+import { FaShareAlt } from "react-icons/fa";
+import { IoBedOutline } from "react-icons/io5";
 import { HiOutlineCurrencyRupee } from "react-icons/hi2";
 import "./searchWidget.scss";
 import { projectData } from "../../data/data";
@@ -155,7 +156,7 @@ const HomeSearchWidget = () => {
                       </Card.Text>
                       <button className="share">
                         <span className="sharp">
-                          <IoShareSocialSharp />
+                          <FaShareAlt />
                         </span>
                       </button>
                     </Card.Body>
