@@ -74,7 +74,7 @@ const HomeSearchWidget = () => {
         <Container>
           <Form>
             <Row className="mb-3">
-              <Col xl={4} className="my-2">
+              <Col xl={4} lg={4} className="my-2">
                 <Form.Select
                   required="true"
                   onChange={(e) => handleLocationChange(e.target.value)}
@@ -88,7 +88,7 @@ const HomeSearchWidget = () => {
                 </Form.Select>
               </Col>
 
-              <Col xl={4} className="my-2">
+              <Col xl={4} lg={4} className="my-2">
                 <Form.Select
                   required="true"
                   onChange={(e) => handleProjectTypeChange(e.target.value)}
@@ -102,7 +102,7 @@ const HomeSearchWidget = () => {
                 </Form.Select>
               </Col>
 
-              <Col xl={4} className="my-2">
+              <Col xl={4} lg={4} className="my-2">
                 {selectedProjectType !== "Plots" && (
                   <Select
                     required="true"

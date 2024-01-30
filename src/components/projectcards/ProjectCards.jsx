@@ -32,7 +32,7 @@ const ProjectCards = () => {
                 <Row className="center-row ">
                   {maincontent.map((item) => {
                     return (
-                      <Col xl={4} key={item.id} className="column">
+                      <Col xl={4} lg={6} key={item.id} className="column">
                         <div className="boxes shadow">
                           <Card className="card mb-4">
                             <Card.Img className="photo" src={item.imgsrc} />
@@ -77,7 +77,7 @@ const ProjectCards = () => {
                             </Card.Text>
                             <button className="share">
                               <span className="sharp">
-                                <FaShareAlt/>
+                                <FaShareAlt />
                               </span>
                             </button>
                           </Card>
@@ -92,7 +92,7 @@ const ProjectCards = () => {
                 <Row className="row ">
                   {coimbatore.map((item) => {
                     return (
-                      <Col xl={4} key={item.id}>
+                      <Col xl={4} lg={6} key={item.id}>
                         <div className="boxes shadow">
                           <Card className="mb-5">
                             <Card.Img className="photo" src={item.imgsrc} />
@@ -149,7 +149,7 @@ const ProjectCards = () => {
                 <Row className="row ">
                   {bengaluru.map((item) => {
                     return (
-                      <Col xl={4} key={item.id}>
+                      <Col xl={4} lg={6} key={item.id}>
                         <div className="boxes shadow">
                           <Card className="mb-5">
                             <Card.Img className="photo" src={item.imgsrc} />
@@ -205,7 +205,7 @@ const ProjectCards = () => {
                 <Row className="row ">
                   {hyderabad.map((item) => {
                     return (
-                      <Col xl={4} key={item.id}>
+                      <Col xl={4} lg={6} key={item.id}>
                         <div className="boxes shadow">
                           <Card className="mb-5">
                             <Card.Img className="photo" src={item.imgsrc} />

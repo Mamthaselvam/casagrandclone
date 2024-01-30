@@ -1,5 +1,4 @@
 import "./features.scss";
-
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import icon1 from "../../assets/icon1.png";
@@ -17,39 +16,43 @@ const Features = () => {
         {/* First Row */}
         <Container>
           <Row>
-            <Col xl={3}>
+            <Col xl={3} lg={3} md={6} className="my-2 my-lg-0">
               <img src={icon1} className="icon" />
               <div className="mt-3">Customized to suit your tastes</div>
             </Col>
-            <Col xl={3}>
+            <Col xl={3} lg={3} md={6} className="my-2 my-lg-0">
               <img src={icon2} className="icon" />
               <div className="mt-3">On Time Delivery</div>
             </Col>
-            <Col xl={3}>
+            <Col xl={3} lg={3} md={6} className="my-2 my-lg-0">
               <img src={icon3} className="icon" />
-              <div className="mt-3">24x7 live telecast of ongoing construction</div>
+              <div className="mt-3">
+                24x7 live telecast of ongoing construction
+              </div>
             </Col>
-            <Col xl={3}>
+            <Col xl={3} lg={3} md={6} className="my-2 my-lg-0">
               <img src={icon4} className="icon" />
               <div className="mt-3">Branded fixtures and fitments</div>
             </Col>
           </Row>
 
-          <Row className="mt-5">
-            <Col xl={4}>
+          <Row className="my-2 my-lg-4">
+            <Col xl={4} lg={4} md={6} className="my-2 my-lg-0">
               <img src={icon5} className="icon" />
               <div className="mt-3">Less Maintenance Expenses</div>
             </Col>
 
-            <Col xl={4}>
+            <Col xl={4} lg={4} md={6} className="my-2 my-lg-0">
               <img src={icon6} className="icon" />
               <div className="mt-3 font-weight: 500; ">Life-time service</div>
             </Col>
 
-            <Col xl={4}>
+            <Col xl={4} lg={4} md={6} className="mx-auto my-2 my-lg-0">
               <img src={icon7} className="icon" />
-              <div className="mt-3" >Limited homes per floor to 
-              <p>ensure "Social distancing"</p></div>
+              <div className="mt-3">
+                Limited homes per floor to
+                <p>ensure Social distancing</p>
+              </div>
             </Col>
           </Row>
         </Container>
