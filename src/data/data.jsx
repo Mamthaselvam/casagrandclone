@@ -123,6 +123,7 @@ export const projectData = [
     location: "Hyderabad",
     projectType: "Villas",
     price: "Starting from $50,000",
+    projectStatus: "New Launch",
     bhk: "2&3 BHK Apartments",
     place: "ORR,South Hyderabad",
     title: "Casagrand Hanfort",
@@ -188,6 +189,7 @@ export const projectData = [
     id: 7,
     location: "Bengaluru",
     projectType: "Apartments",
+    projectStatus:"Ready to Occupy",
     place: "Bannerghatta Road",
     price: "Starting from $50,000",
     bhk: "2&3 BHK Apartments",
@@ -199,6 +201,7 @@ export const projectData = [
     id: 8,
     location: "Coimbatore",
     projectType: "Apartments",
+    projectStatus:"Ready to Occupy",
     place: "Vilankurichi",
     price: "Starting from $50,000",
     bhk: "2&3 BHK Apartments",
@@ -267,6 +270,7 @@ export const projectData = [
     location: "Chennai",
     projectType: "Villas",
     place: "Shollinganallur,OMR",
+    projectStatus: "New Launch",
     price: "Starting from $50,000",
     bhk: "2&3 BHK Apartments",
     title: "Casagrand Cloud9",
@@ -396,4 +400,30 @@ export const projectData = [
     imgsrc:
       "https://images.unsplash.com/photo-1682685797439-a05dd915cee9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
+
+  {
+    id: 26,
+    location: "Chennai",
+    projectType: "Apartments",
+    projectStatus:"Ready to Occupy",
+    place: "Manapakkam",
+    price: "Starting from $50,000",
+    bhk: "2&3 BHK Apartments",
+    title: "Casagrand Majestica",
+    imgsrc:
+      "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg?cs=srgb&dl=pexels-pixabay-259950.jpg&fm=jpg",
+  },
+
+  {
+    id: 27,
+    location: "Chennai",
+    projectType: "Apartments",
+    projectStatus:"New Launch",
+    place: "Manapakkam",
+    price: "Starting from $50,000",
+    bhk: "2&3 BHK Apartments",
+    title: "Casagrand Majestica",
+    imgsrc:
+      "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg?cs=srgb&dl=pexels-pixabay-259950.jpg&fm=jpg",
+  }
 ];
