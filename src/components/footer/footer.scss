@@ -8,18 +8,16 @@
     margin-left: 1rem;
     margin-right: -0.5rem;
   }
- 
-  .foot{
+
+  .link {
     margin-left: 1.2rem;
-    margin-right: .3rem;
+    margin-right: 0.3rem;
   }
   .Image {
     height: 20px;
     width: 20px;
   }
 }
-
-
 
 .icon1 {
   padding: 4px;
@@ -34,15 +32,14 @@
   top: 30%;
   right: 0;
   z-index: 99;
-  
 }
-.Icon{
+.Icon {
   position: fixed;
   top: 45%;
   right: 0;
   z-index: 99;
 }
-.icon2{
+.icon2 {
   height: 36px;
 }
 .drawer {
@@ -77,16 +74,14 @@
   overflow: hidden;
   height: 400px;
 }
-@media (max-width: 768px) {
-  #footer{
-   
-    padding: 1rem 0;
-    .foot{
-      margin: 0 .4rem;
-     
-     }
-    
+
+@media (max-width: 992px) {
+  #footer a {
+    margin-right: 0;
+    font-size: 1rem;
   }
-   
-  
+  #footer .link {
+    margin-left: 0;
+    margin-right: 0.8rem;
+  }
 }

@@ -16,55 +16,75 @@ const Footer = () => {
         <Container>
           <Col xl={10}>
             <div>
-              <Link to="/" className="foot">
+              <Link to="/" className="link">
                 About Us
               </Link>
-              <Link to="/" className="foot">
+              <Link to="/" className="link">
                 Channel Partners
               </Link>
-              <Link to="/" className="foot">
+              <Link to="/" className="link">
                 Media
               </Link>
-              <Link to="/" className="foot">
+              <Link to="/" className="link">
                 Blog
               </Link>
-              <Link to="/" className="foot">
+              <Link to="/" className="link">
                 Testimonials
               </Link>
-              <Link to="/" className="foot">
+              <Link to="/" className="link">
                 Refferals
               </Link>
-              <Link to="/" className="foot">
+              <Link to="/" className="link">
                 NRI
               </Link>
-              <Link to="/" className="foot">
+              <Link to="/" className="link">
                 Helpful Tools
               </Link>
             </div>
 
-            <div>
-              <a href="https://www.facebook.com">
+            <div className="mt-2">
+              <a
+                target="_blank"
+                href="https://www.facebook.com"
+                rel="noreferrer"
+              >
                 <img src={fb} className="Image" />
               </a>
 
-              <a href="https://twitter.com/">
+              <a target="_blank" href="https://twitter.com/" rel="noreferrer">
                 <img src={twitter} className="Image" />
               </a>
 
-              <a href="https://www.instagram.com/">
-                <img src={insta} className="Image"/>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/"
+                rel="noreferrer"
+              >
+                <img src={insta} className="Image" />
               </a>
 
-              <a href="https://www.linkedin.com/">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/"
+                rel="noreferrer"
+              >
                 <img src={linkedin} className="Image" />
               </a>
 
-              <a href="https://www.youtube.com/">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/"
+                rel="noreferrer"
+              >
                 <img src={youtube} className="Image" />
               </a>
 
-              <a href="https://in.pinterest.com/">
-                <img src={pinterest}className="Image" />
+              <a
+                target="_blank"
+                href="https://in.pinterest.com/"
+                rel="noreferrer"
+              >
+                <img src={pinterest} className="Image" />
               </a>
             </div>
           </Col>
