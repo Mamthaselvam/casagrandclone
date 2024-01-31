@@ -8,16 +8,18 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/footer/Footer";
 import Topbar from "./components/topbar/Topbar";  
+import AboutUs from "./pages/aboutUs/AboutUs";
 
 const App = () => {
   return (
     <>
-    <Topbar/>
+    {/* <Topbar/> */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
