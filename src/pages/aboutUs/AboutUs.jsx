@@ -1,17 +1,21 @@
-import React from 'react'
+
+import bgimg from '../../assets/about bg.jpg' 
+import './aboutUs.scss'
 
 const AboutUs = () => {
   return (
-    <div>
-       {/* image part */}
-       <div>
-         image
+    <section id='about'>
+   <img className='aboutBg' src={bgimg} />
+       <div className='heading'>
+         <h1>ABOUT US </h1>
+       
        </div>
+       
        {/* values part */}
        <div>
            value
        </div>
-    </div>
+    </section>
   )
 }
 

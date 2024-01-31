@@ -1,0 +1,24 @@
+
+#about{
+    position: relative;
+    overflow: hidden;
+    height: 70vh;
+}
+.aboutBg{
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+    
+
+object-fit: cover;
+}
+.heading{
+
+   position: absolute;
+    top: 50%;
+   left: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -13,13 +13,13 @@ import AboutUs from "./pages/aboutUs/AboutUs";
 const App = () => {
   return (
     <>
-    {/* <Topbar/> */}
+    <Topbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
