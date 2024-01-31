@@ -1,3 +1,5 @@
+import React from 'react'
+import {Container,Row,Col} from 'react-bootstrap';
 
 import bgimg from '../../assets/about bg.jpg' 
 import './aboutUs.scss'
