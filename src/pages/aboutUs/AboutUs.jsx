@@ -6,14 +6,15 @@ import './aboutUs.scss'
 
 const AboutUs = () => {
   return (
-    <section id='about'>
-   <img className='aboutBg' src={bgimg} />
+    <section >
+        <div id='about'>
+        <img className='aboutBg' src={bgimg} />
        <div className='heading'>
          <h1>ABOUT US </h1>
        
        </div>
-       
-       {/* values part */}
+        </div>
+         {/* values part */}
        <div>
            <h1>Our Core Values</h1>
            <Container className='mt-5'>
@@ -35,7 +36,10 @@ const AboutUs = () => {
        <div>
         picture
        </div>
+     
     </section>
+      
+       
   )
 }
 
