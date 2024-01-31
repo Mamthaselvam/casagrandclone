@@ -427,3 +427,10 @@ export const projectData = [
       "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg?cs=srgb&dl=pexels-pixabay-259950.jpg&fm=jpg",
   }
 ];
+
+export const top = [
+  { id: 1, text: "Home", url: "/home" },
+  { id: 2, text: "About Us ", url: "/about" },
+  { id: 3, text: "Testimonials", url: "/testimonials" },
+  { id: 4, text: "Partner with Us", url: "/partner" },
+];
