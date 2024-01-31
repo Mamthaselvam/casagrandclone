@@ -189,7 +189,7 @@ export const projectData = [
     id: 7,
     location: "Bengaluru",
     projectType: "Apartments",
-    projectStatus:"Ready to Occupy",
+    projectStatus: "Ready to Occupy",
     place: "Bannerghatta Road",
     price: "Starting from $50,000",
     bhk: "2&3 BHK Apartments",
@@ -201,7 +201,7 @@ export const projectData = [
     id: 8,
     location: "Coimbatore",
     projectType: "Apartments",
-    projectStatus:"Ready to Occupy",
+    projectStatus: "Ready to Occupy",
     place: "Vilankurichi",
     price: "Starting from $50,000",
     bhk: "2&3 BHK Apartments",
@@ -405,7 +405,7 @@ export const projectData = [
     id: 26,
     location: "Chennai",
     projectType: "Apartments",
-    projectStatus:"Ready to Occupy",
+    projectStatus: "Ready to Occupy",
     place: "Manapakkam",
     price: "Starting from $50,000",
     bhk: "2&3 BHK Apartments",
@@ -418,18 +418,18 @@ export const projectData = [
     id: 27,
     location: "Chennai",
     projectType: "Apartments",
-    projectStatus:"New Launch",
+    projectStatus: "New Launch",
     place: "Manapakkam",
     price: "Starting from $50,000",
     bhk: "2&3 BHK Apartments",
     title: "Casagrand Majestica",
     imgsrc:
       "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg?cs=srgb&dl=pexels-pixabay-259950.jpg&fm=jpg",
-  }
+  },
 ];
 
 export const top = [
-  { id: 1, text: "Home", url: "/home" },
+  { id: 1, text: "Home", url: "/" },
   { id: 2, text: "About Us ", url: "/about" },
   { id: 3, text: "Testimonials", url: "/testimonials" },
   { id: 4, text: "Partner with Us", url: "/partner" },

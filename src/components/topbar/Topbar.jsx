@@ -70,11 +70,7 @@ const Header = () => {
                       </NavLink>
                     ))}
 
-                    <NavLink
-                      to="/contact"
-                      className="px-4 py-1"
-                      onClick={() => handleLinkClick("/contact")}
-                    >
+                    <NavLink to="/contact" className="px-4 py-1">
                       <button className="btn btn-lg contactBtn">ENQUIRE</button>
                     </NavLink>
                   </Nav>
