@@ -1,26 +1,16 @@
 
-
-.main{
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-    padding: 10px 20px;
-}   
 .navs{
-    display: flex;
     font-size: 20px;
-    font-weight: 500;
-    
+    font-weight: bold; 
 }
-.navs p{
-    margin: 0 1rem; 
-   
+
+.navbar {
+    --bs-navbar-padding-y: 0;
 }
 .enquire{
-    padding: .5rem 2rem;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: rgb(2, 72, 164);
-    color: white;
-    border-radius: 5px;
+padding: .4rem 1.7rem;
+font-weight: 600;
+background-color: rgb(2, 72, 164);
 }
+
+  
