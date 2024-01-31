@@ -1,14 +1,16 @@
-import React from 'react'
-import {Container,Row,Col} from 'react-bootstrap';
+
+import bgimg from '../../assets/about bg.jpg' 
 import './aboutUs.scss'
 
 const AboutUs = () => {
   return (
-    <div>
-       {/* image part */}
-       <div>
-         image
+    <section id='about'>
+   <img className='aboutBg' src={bgimg} />
+       <div className='heading'>
+         <h1>ABOUT US </h1>
+       
        </div>
+       
        {/* values part */}
        <div>
            <h1>Our Core Values</h1>
@@ -31,7 +33,7 @@ const AboutUs = () => {
        <div>
         picture
        </div>
-    </div>
+    </section>
   )
 }
 
