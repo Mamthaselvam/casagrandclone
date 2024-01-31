@@ -154,7 +154,7 @@ const Header = () => {
                   </Navbar.Toggle>
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                      {menuLink.map((menu) => (
+                      {top.map((menu) => (
                         <NavLink
                           to={menu.url}
                           className="menuLink"
