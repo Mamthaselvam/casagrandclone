@@ -1,4 +1,6 @@
+import Faq from './Faq'
 import Image from './Image'
+import Team from './Team'
 import Values from './Values'
 
 const AboutUs = () => {
@@ -6,6 +8,8 @@ const AboutUs = () => {
     <>
      <Image/>
      <Values/>
+     <Team />
+     <Faq />
     </>  
   )
 }

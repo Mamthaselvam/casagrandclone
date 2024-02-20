@@ -1,0 +1,96 @@
+.galaery-h1 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .galaery-h1-line {
+    margin-top: 10px;
+    // border-top: 5px solid gray;
+    width: 300px;
+  }
+  
+  .galleryg {
+    background-color: var(--background);
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  
+  .cardg {
+    text-align: center;
+    position: relative;
+    left: 0px;
+    width: 250px;
+    height: 300px;
+    background-color: var(--background);
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin: center left;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    outline: 1px solid var(--background);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    cursor: pointer;
+  }
+  
+  .cardg img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .cardg:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  .cardg figcaption {
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+  }
+  
+  .cardg:hover figcaption {
+    justify-content: center;
+    font-size: 24px;
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    // display: flex;
+    // align-items: end;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    color: white;
+    left: 0px;
+    top: 70%;
+    padding-left: 12px;
+    // padding-bottom: 10px;
+  }
+  
+  .cardg:hover ~ .cardg {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(22px);
+  }
+  .cardg figcaption h3{
+    color: white;
+  }
+  
+  .cardg figcaption :hover h3 p {
+    color: orangered;
+  }

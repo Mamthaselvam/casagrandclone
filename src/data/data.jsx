@@ -1,3 +1,9 @@
+
+import Img1 from "../assets/1.jpeg";
+import Img2 from "../assets/2.jpeg";
+import Img3 from "../assets/3.jpg";
+
+
 export const maincontent = [
   {
     id: 1,
@@ -433,4 +439,10 @@ export const top = [
   { id: 2, text: "About Us ", url: "/about" },
   { id: 3, text: "Testimonials", url: "/testimonials" },
   { id: 4, text: "Partner with Us", url: "/partner" },
+];
+export const ourteam = [
+  { id: 1, imgSrc: Img1, title: "Maria Barlow",para:"Sales Executive"  },
+  { id: 2, imgSrc: Img2, title: "Jane Sutherland",para:"Real Estate Broker" },
+  { id: 3, imgSrc: Img3, title: "Eric Long",para:"Sales Agent" }
+  
 ];

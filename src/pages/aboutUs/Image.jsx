@@ -1,6 +1,8 @@
 import React from 'react'
 import'./images.scss'
-import bgimg from '../../assets/about bg.jpg' 
+import bgimg from '../../assets/about bg.jpg'
+// data
+
 
 const Image = () => {
   return (
@@ -9,6 +11,7 @@ const Image = () => {
         <img className='aboutBg' src={bgimg} />
        <div className='heading'>
          <h1>ABOUT US </h1>
+       
        
        </div>
         

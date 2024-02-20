@@ -23,10 +23,8 @@ const Values = () => {
             </Row>
            </Container>
        </div>
-       {/* picture part */}
-       <div>
-        picture
-       </div>
+       
+      
     </div>
   )
 }
