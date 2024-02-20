@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import ReactGA from 'react-ga4'
 
 
-ReactGA.initialize("G-FTE3QBDK70"); // measurement ID
+ReactGA.initialize("G-E7DC049VPD"); // measurement ID
 
 ReactGA.send({
   hitType: "pageview",

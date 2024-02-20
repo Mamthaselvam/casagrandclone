@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './value.scss'
 import {Container,Row,Col} from 'react-bootstrap';
 

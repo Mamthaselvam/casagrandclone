@@ -1,4 +1,4 @@
-import React from 'react'
+
 import'./images.scss'
 import bgimg from '../../assets/about bg.jpg'
 // data
